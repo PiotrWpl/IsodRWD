@@ -58,3 +58,10 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > a 
 .nowrap span {
   white-space: nowrap;
 }
+
+.history.content li {
+  padding: 8px 0;
+}
+.history.content li li {
+  padding: 4px 0;
+}
