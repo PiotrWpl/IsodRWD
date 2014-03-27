@@ -1,0 +1,60 @@
+a {
+  color: #333;
+}
+a:hover {
+  text-decoration: none;
+}
+h4, .h4 {
+  font-size: 16px;
+}
+ol {
+  -webkit-padding-start: 20px;
+}
+ol li {
+  white-space: nowrap;
+  list-style-position: inside;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+body {
+  padding-top: 50px;
+  background-color: #069;
+}
+.well {
+  background-image: -webkit-linear-gradient(top,#FAFAFA 0,#FCFCFC 100%);
+  background-image: linear-gradient(to bottom,#FAFAFA 0,#FCFCFC 100%);
+  background-color: #FCFCFC;
+  border-color: #E9E9E9;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffafafa', endColorstr='#fffcfcfc', GradientType=0);
+}
+.label {
+  padding: .1em .6em;
+}
+.navbar-brand {
+  text-indent: 50px;
+  background-image: url('../assets/logo_ee_portal.png');
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > a {
+  color: #000;
+}
+.lang-ico {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.lang-ico.lang-en {
+  background-image: url('../assets/en.png');
+}
+.content.container {
+  padding-top: 20px;
+}
+.news.content .panel-body small {
+  color: #777;
+  font-style: italic;
+}
+
+.nowrap span {
+  white-space: nowrap;
+}
