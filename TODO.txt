@@ -1,0 +1,32 @@
+Zrobione:
+- index
+- news
+- propozycje tematów
+- historia strony
+- do pobrania
+- obronione tematy
+
+Do zrobienia:
+- szczegóły wykładowca
+- wykładowcy
+- plan zajęć wyszukaj
+- szczegóły plan zajęć
+- karty przedmiotów
+- szczegóły przedmiot
+- szczegóły propozycja tematu
+- program studiów wyszukaj
+
+Extra:
+- zeruj filtry
+- kolory linków
+- tło strony
+
+Testy:
+- android tablet
+- android 2.x
+- android 4.0 <= X <= 4.3
+- iPad
+- iPhone
+- iOS 6 i 7
+
+DOKUMENTACJA
