@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/favicon.ico">
+
+    <title>ISOD | Internetowy System Obsługi Dziekanatu</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="bootstrap-3.1.1/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/libs/html5shiv-3.7.0.js"></script>
+      <script src="js/libs/respond-1.4.2.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">ISOD Portal</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Studia <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="schedule.html">Plan zajęć</a></li>
+                <li class="divider"></li>
+                <li><a href="sylabus.html">Karty przedmiotów</a></li>
+                <li class="divider"></li>
+                <li><a href="teachers.html">Wykładowcy</a></li>
+                <li class="divider"></li>
+                <li><a href="program.html">Program studiów</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prace dyplomowe <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="defended.html">Obronione</a></li>
+                <li class="divider"></li>
+                <li><a href="proposals.html">Propozycje tematów</a></li>
+              </ul>
+            </li>
+            <li><a href="download.html">Do pobrania</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Na skróty <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://isod.ee.pw.edu.pl/">Wirtualny dziekanat</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.bg.pw.edu.pl/">Biblioteka</a></li>
+                <li class="divider"></li>
+                <li><a href="http://webmail.ee.pw.edu.pl/">Poczta</a></li>
+              </ul>
+            </li>
+            <li><a href="#english" class="text-hide lang-ico lang-en">English</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="defended content container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <div class="well well-sm">
+                Na stronie tej znajduje się lista obronionych prac dyplomowych uporządkowana po dacie obrony - na początku najnowsze.
+              </div>
+              <div class="text-right">
+                <button class="btn btn-primary btn-sm" data-toggle="modal" data-target=".search-defended">Narzędzia wyszukiwania</button>
+                <button class="btn btn-info btn-sm" data-toggle="modal" data-target=".export-panel">Panel eksportu</button>
+              </div>
+              <div class="modal fade search-defended" tabindex="-1" role="dialog" aria-labelledby="mySearchDefendedLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title" id="mySearchDefendedLabel">Przeszukaj obronione tematy</h4>
+                    </div>
+                    <div class="modal-body">
+                      <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                          <label for="inputEmail3" class="col-sm-6 control-label">Temat:</label>
+                          <div class="col-sm-6">
+                            <input type="email" class="form-control input-sm" id="inputEmail3">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputEmail3" class="col-sm-6 control-label">Kierunek:</label>
+                          <div class="col-sm-6">
+                            <select class="form-control input-sm">
+                              <option value="">obojętne</option>
+                              <option value="0">I,D,PL - Automatyka i Robotyka</option>
+                              <option value="1">I,D,PL - Automatyka i Robotyka - Automatyka</option>
+                              <option value="2">I,D,PL - Elektrotechnika</option>
+                              <option value="3">I,D,PL - Informatyka</option>
+                              <option value="4">I,D,EN - Electrical Engineering</option>
+                              <option value="5">I,Z,PL - Elektrotechnika</option>
+                              <option value="6">M,D,PL - Automatyka i Robotyka</option>
+                              <option value="7">M,D,PL - Elektrotechnika</option>
+                              <option value="8">M,D,PL - Informatyka</option>
+                              <option value="9">M,D,EN - Electrical Engineering</option>
+                              <option value="10">M,Z,PL - Elektrotechnika</option>
+                              <option value="11">D,D,PL - Studium doktoranckie</option>
+                              <option value="12">I,D,PL - Wydział Zewnętrzny</option>
+                              <option value="13">M,D,PL - Wydział Zewnętrzny</option>
+                              <option value="14">I,Z,PL - Wydział Zewnętrzny</option>
+                              <option value="15">M,Z,PL - Wydział Zewnętrzny</option>
+                              <option value="16">I,Z,PL - Informatyka-OKNO</option>
+                              <option value="17">M,Z,PL - Informatyka-OKNO</option>
+                              <option value="18">P,Z,PL - Bazy danych i analiza danych w biznesie</option>
+                              <option value="19">P,Z,PL - Bezpieczeństwo systemów informatycznych</option>
+                              <option value="20">P,Z,PL - Hurtownie i analiza danych w biznesie</option>
+                              <option value="21">P,Z,PL - Informatyka i techniki Internetu</option>
+                              <option value="22">P,Z,PL - Informatyka w systemach kontrolno-pomiarowych</option>
+                              <option value="23">P,Z,PL - Instalacje i urządzenia elektryczne - projektowanie i eksploatacja</option>
+                              <option value="24">P,Z,PL - Metody i narzędzia inżynierii oprogramowania</option>
+                              <option value="25">P,Z,PL - Nowoczesne metody analiz w elektroenergetyce</option>
+                              <option value="26">P,Z,PL - Nowoczesny ekologiczny i energooszczędny transport zelektryfikowany</option>
+                              <option value="27">P,Z,PL - Projektowanie systemów informacyjnych</option>
+                              <option value="28">P,Z,PL - Prowadzenie projektów informatycznych</option>
+                              <option value="29">P,Z,PL - Przekształtniki i magazyny energii dla energetyki odnawialnej</option>
+                              <option value="30">P,Z,PL - Systemy inteligentnych budynków</option>
+                              <option value="31">P,Z,PL - Technika świetlna użytkowa</option>
+                              <option value="32">P,Z,PL - Bazy danych. Metody, narzędzia, praktyka</option>
+                              <option value="33">E,D,EN - EUKLA</option>
+                              <option value="34">E,D,EN - EWENT</option>
+                              <option value="35">P,Z,PL - Współczesne systemy elektromechatroniki pojazdów klasycznych oraz "green cars"</option>
+                              <option value="36">P,Z,PL - Zasilanie sieciowe pojazdów trakcyjnych</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputEmail3" class="col-sm-6 control-label">Jednostka organizacyjna:</label>
+                          <div class="col-sm-6">
+                            <select class="form-control input-sm">
+                              <option value="">obojętne</option>
+                              <option value="0">CH</option>
+                              <option value="1">EE</option>
+                              <option value="2">ICHIP</option>
+                              <option value="3">IE</option>
+                              <option value="4">IETiSIP</option>
+                              <option value="5">IF</option>
+                              <option value="6">IL</option>
+                              <option value="7">IME</option>
+                              <option value="8">INNE</option>
+                              <option value="9">ISEP</option>
+                              <option value="10">KWNiAE</option>
+                              <option value="11">MECHTR</option>
+                              <option value="12">MECHTR-AiR</option>
+                              <option value="13">MEiL</option>
+                              <option value="14">MiNI</option>
+                              <option value="15">OKNO</option>
+                              <option value="16">OKNO-EE</option>
+                              <option value="17">PW</option>
+                              <option value="18">SJO</option>
+                              <option value="19">SWFiS</option>
+                              <option value="20">WAiNS</option>
+                              <option value="21">WEiTI</option>
+                              <option value="22">WEiTI-II</option>
+                              <option value="23">WEiTI-IMIO</option>
+                              <option value="24">WEiTI-ISE</option>
+                              <option value="25">WIM</option>
+                              <option value="26">WIP</option>
+                              <option value="27">WIŚ</option>
+                              <option value="28">WZ</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputEmail3" class="col-sm-6 control-label">Podjednostka funkcjonalna:</label>
+                          <div class="col-sm-6">
+                            <select class="form-control input-sm">
+                              <option></option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputEmail3" class="col-sm-6 control-label">Student:</label>
+                          <div class="col-sm-6">
+                            <input type="email" class="form-control input-sm" id="inputEmail3">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputEmail3" class="col-sm-6 control-label">Opiekun:</label>
+                          <div class="col-sm-6">
+                            <input type="email" class="form-control input-sm" id="inputEmail3">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputEmail3" class="col-sm-6 control-label">Semestr obrony:</label>
+                          <div class="col-sm-6">
+                            <select class="form-control input-sm">
+                              <option value="">obojętne</option>
+                              <option value="0">1998Z</option>
+                              <option value="1">1999L</option>
+                              <option value="2">1999Z</option>
+                              <option value="3">2000L</option>
+                              <option value="4">2000Z</option>
+                              <option value="5">2001L</option>
+                              <option value="6">2001Z</option>
+                              <option value="7">2002L</option>
+                              <option value="8">2002Z</option>
+                              <option value="9">2003L</option>
+                              <option value="10">2003Z</option>
+                              <option value="11">2004L</option>
+                              <option value="12">2004Z</option>
+                              <option value="13">2005L</option>
+                              <option value="14">2005Z</option>
+                              <option value="15">2006L</option>
+                              <option value="16">2006Z</option>
+                              <option value="17">2007L</option>
+                              <option value="18">2007Z</option>
+                              <option value="19">2008L</option>
+                              <option value="20">2008Z</option>
+                              <option value="21">2009L</option>
+                              <option value="22">2009Z</option>
+                              <option value="23">2010L</option>
+                              <option value="24">2010Z</option>
+                              <option value="25">2011L</option>
+                              <option value="26">2011Z</option>
+                              <option value="27">2012L</option>
+                              <option value="28">2012Z</option>
+                              <option value="29">2013L</option>
+                              <option value="30">2013Z</option>
+                              <option value="31">2014L</option>
+                              <option value="32">2014Z</option>
+                              <option value="33">2015L</option>
+                              <option value="34">2015Z</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-sm-offset-6 col-sm-6">
+                            <button type="submit" class="btn btn-success">Szukaj</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal fade export-panel" tabindex="-1" role="dialog" aria-labelledby="myExportPanelLabel" aria-hidden="true">
+                <div class="modal-dialog modal-sm">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title" id="myExportPanelLabel">Panel eksportu</h4>
+                    </div>
+                    <div class="modal-body">
+                      <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                          <label for="inputEmail3" class="col-sm-6 control-label">Kodowanie:</label>
+                          <div class="col-sm-6">
+                            <select class="form-control input-sm">
+                              <option value="0">UTF-8</option>
+                              <option selected="selected" value="1">windows-1250</option>
+                              <option value="2">ISO-8859-2</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-sm-offset-6 col-sm-6">
+                            <button type="submit" class="btn btn-success">Eksport CSV</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center">
+                <ul class="pagination pagination-sm">
+                  <li class="disabled"><a href="#">&laquo;&laquo;</a></li>
+                  <li class="disabled"><a href="#">&laquo;</a></li>
+                  <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                  <li><a href="#">2</a></li>
+                  <li class="disabled"><a href="#">...</a></li>
+                  <li><a href="#">79</a></li>
+                  <li><a href="#">80</a></li>
+                  <li><a href="#">&raquo;</a></li>
+                </ul>
+              </div>
+              <div class="table-responsive">
+                <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Praca dyplomowa</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1.</td>
+                    <td>
+                      <dl class="dl-horizontal">
+                        <dt>Temat:</dt>
+                        <dd>
+                          <strong>System magazynowania energii w superkondensatorach do silnika typu resistojet</strong>
+                          <small class="extra-information">(Supercapacitors charger for resistojet thruster supply system)</small>
+                        </dd>
+                        <dt>Student:</dt>
+                        <dd><strong>Oleksandr Gryn</strong></dd>
+                        <dt>Opiekun:</dt>
+                        <dd><strong>dr hab. inż. Piotr Biczel</strong></dd>
+                        <dt>Data obrony:</dt>
+                        <dd>28.03.2014</dd>
+                        <dt>Recenzent:</dt>
+                        <dd>dr inż. Mariusz Kłos</dd>
+                        <dt>Poziom studiów:</dt>
+                        <dd>magisterskie II-go stopnia, stacjonarne</dd>
+                        <dt>Kierunek (specjalność):</dt>
+                        <dd>Electrical Engineering</dd>
+                        <dt>Ocena końcowa:</dt>
+                        <dd>5,0</dd>
+                        <dt>Nadany stopień:</dt>
+                        <dd>magistra inżyniera</dd>
+                      </dl>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>2.</td>
+                    <td>
+                      <dl class="dl-horizontal">
+                        <dt>Temat:</dt>
+                        <dd>
+                          <strong>Systemy AMR przykładem inteligentnych systemów pomiarowych.</strong>
+                        </dd>
+                        <dt>Student:</dt>
+                        <dd><strong>Piotr Zaburski</strong></dd>
+                        <dt>Opiekun:</dt>
+                        <dd><strong>dr inż. Bogdan Dziadak</strong></dd>
+                        <dt>Data obrony:</dt>
+                        <dd>25.03.2014</dd>
+                        <dt>Recenzent:</dt>
+                        <dd>prof. dr hab. inż. Andrzej Michalski</dd>
+                        <dt>Poziom studiów:</dt>
+                        <dd>magisterskie II-go stopnia, niestacjonarne</dd>
+                        <dt>Kierunek (specjalność):</dt>
+                        <dd>Elektrotechnika (Elektroenergetyka)</dd>
+                        <dt>Ocena końcowa:</dt>
+                        <dd>4,0</dd>
+                        <dt>Nadany stopień:</dt>
+                        <dd>magistra inżyniera</dd>
+                      </dl>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>3.</td>
+                    <td>
+                      <dl class="dl-horizontal">
+                        <dt>Temat:</dt>
+                        <dd>
+                          <strong>Projekt i budowa układu pomiarowo-sterującego przekształtnika DC/DC dla małej elektrowni wiatrowej</strong>
+                        </dd>
+                        <dt>Student:</dt>
+                        <dd><strong>Łukasz Milewski</strong></dd>
+                        <dt>Opiekun:</dt>
+                        <dd><strong>prof. nzw. dr hab. inż. Mariusz Malinowski</strong></dd>
+                        <dt>Data obrony:</dt>
+                        <dd>14.03.2014</dd>
+                        <dt>Recenzent:</dt>
+                        <dd>dr hab. inż. Jacek Rąbkowski</dd>
+                        <dt>Poziom studiów:</dt>
+                        <dd>inżynierskie I-go stopnia, stacjonarne</dd>
+                        <dt>Kierunek (specjalność):</dt>
+                        <dd>Elektrotechnika (Automatyka i inżynieria komputerowa)</dd>
+                        <dt>Ocena końcowa:</dt>
+                        <dd>5,0</dd>
+                        <dt>Nadany stopień:</dt>
+                        <dd>inżyniera</dd>
+                      </dl>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>4.</td>
+                    <td>
+                      <dl class="dl-horizontal">
+                        <dt>Temat:</dt>
+                        <dd>
+                          <strong>Modernizacja układów zasilania stacji 110kV/SN w zakładach przemysłowych.</strong>
+                        </dd>
+                        <dt>Student:</dt>
+                        <dd><strong>Janusz Garwacki</strong></dd>
+                        <dt>Opiekun:</dt>
+                        <dd><strong>prof. nzw. dr hab. inż. Jerzy Marzecki</strong></dd>
+                        <dt>Data obrony:</dt>
+                        <dd>12.03.2014</dd>
+                        <dt>Recenzent:</dt>
+                        <dd>dr inż. Piotr Helt</dd>
+                        <dt>Poziom studiów:</dt>
+                        <dd>magisterskie II-go stopnia, niestacjonarne</dd>
+                        <dt>Kierunek (specjalność):</dt>
+                        <dd>Elektrotechnika (Elektroenergetyka)</dd>
+                        <dt>Ocena końcowa:</dt>
+                        <dd>5,0</dd>
+                        <dt>Nadany stopień:</dt>
+                        <dd>magistra inżyniera</dd>
+                      </dl>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>5.</td>
+                    <td>
+                      <dl class="dl-horizontal">
+                        <dt>Temat:</dt>
+                        <dd>
+                          <strong>Układy rozdziału energii 110/SN/nn z wykorzystaniem nowoczesnych rozwiązań stacji i rozdzielnic elektroenergetycznych.</strong>
+                        </dd>
+                        <dt>Student:</dt>
+                        <dd><strong>Bartosz Hunek</strong></dd>
+                        <dt>Opiekun:</dt>
+                        <dd><strong>dr inż. Zygmunt Pawełkowicz</strong></dd>
+                        <dt>Data obrony:</dt>
+                        <dd>12.03.2014</dd>
+                        <dt>Recenzent:</dt>
+                        <dd>dr inż. Mariusz Kłos</dd>
+                        <dt>Poziom studiów:</dt>
+                        <dd>inżynierskie I-go stopnia, stacjonarne</dd>
+                        <dt>Kierunek (specjalność):</dt>
+                        <dd>Elektrotechnika (Elektroenergetyka)</dd>
+                        <dt>Ocena końcowa:</dt>
+                        <dd>4,0</dd>
+                        <dt>Nadany stopień:</dt>
+                        <dd>inżyniera</dd>
+                      </dl>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>6.</td>
+                    <td>
+                      <dl class="dl-horizontal">
+                        <dt>Temat:</dt>
+                        <dd>
+                          <strong>Efektywność ekonomiczna mikroinstalacji prosumenckich</strong>
+                        </dd>
+                        <dt>Student:</dt>
+                        <dd><strong>Adam Matusik</strong></dd>
+                        <dt>Opiekun:</dt>
+                        <dd><strong>dr inż. Piotr Helt</strong></dd>
+                        <dt>Data obrony:</dt>
+                        <dd>12.03.2014</dd>
+                        <dt>Recenzent:</dt>
+                        <dd>prof. nzw. dr hab. inż. Jerzy Marzecki</dd>
+                        <dt>Poziom studiów:</dt>
+                        <dd>magisterskie II-go stopnia, stacjonarne</dd>
+                        <dt>Kierunek (specjalność):</dt>
+                        <dd>Elektrotechnika (Elektroenergetyka)</dd>
+                        <dt>Ocena końcowa:</dt>
+                        <dd>4,0</dd>
+                        <dt>Nadany stopień:</dt>
+                        <dd>magistra inżyniera</dd>
+                      </dl>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>7.</td>
+                    <td>
+                      <dl class="dl-horizontal">
+                        <dt>Temat:</dt>
+                        <dd>
+                          <strong>Analiza rozkładu pola elektroenergetycznego w styczniku prądu przemiennego.</strong>
+                        </dd>
+                        <dt>Student:</dt>
+                        <dd><strong>Konrad Kananowicz</strong></dd>
+                        <dt>Opiekun:</dt>
+                        <dd><strong>dr inż. Łukasz Kolimas</strong></dd>
+                        <dt>Data obrony:</dt>
+                        <dd>12.03.2014</dd>
+                        <dt>Recenzent:</dt>
+                        <dd>dr inż. Kazimierz Zgliński</dd>
+                        <dt>Poziom studiów:</dt>
+                        <dd>inżynierskie I-go stopnia, stacjonarne</dd>
+                        <dt>Kierunek (specjalność):</dt>
+                        <dd>Elektrotechnika (Elektromechatronika)</dd>
+                        <dt>Ocena końcowa:</dt>
+                        <dd>3,5</dd>
+                        <dt>Nadany stopień:</dt>
+                        <dd>inżyniera</dd>
+                      </dl>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>8.</td>
+                    <td>
+                      <dl class="dl-horizontal">
+                        <dt>Temat:</dt>
+                        <dd>
+                          <strong>Projekt zasilania przenośnego stoiska handlowego z wykorzystaniem odnawialnych źródeł energii.</strong>
+                        </dd>
+                        <dt>Student:</dt>
+                        <dd><strong>Paweł Rybak</strong></dd>
+                        <dt>Opiekun:</dt>
+                        <dd><strong>mgr inż. Piotr Marchel</strong></dd>
+                        <dt>Data obrony:</dt>
+                        <dd>7.03.2014</dd>
+                        <dt>Recenzent:</dt>
+                        <dd>dr inż. Mariusz Kłos</dd>
+                        <dt>Poziom studiów:</dt>
+                        <dd>inżynierskie I-go stopnia, stacjonarne</dd>
+                        <dt>Kierunek (specjalność):</dt>
+                        <dd>Elektrotechnika (Elektroenergetyka)</dd>
+                        <dt>Ocena końcowa:</dt>
+                        <dd>4,0</dd>
+                        <dt>Nadany stopień:</dt>
+                        <dd>inżyniera</dd>
+                      </dl>
+                    </td>
+                  </tr>
+                </tbody>
+                </table>
+              </div><!-- /.table-responsive -->
+              <div class="text-center">
+                <ul class="pagination pagination-sm">
+                  <li class="disabled"><a href="#">&laquo;&laquo;</a></li>
+                  <li class="disabled"><a href="#">&laquo;</a></li>
+                  <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                  <li><a href="#">2</a></li>
+                  <li class="disabled"><a href="#">...</a></li>
+                  <li><a href="#">79</a></li>
+                  <li><a href="#">80</a></li>
+                  <li><a href="#">&raquo;</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="panel-footer text-center">
+              Portal Dydaktyczny 2010-2014 (wersja: <a href="history.html"><span>2.0.0</span></a>) | Icons by <a href="http://glyphicons.com/">Glyphicons</a><br/>
+              Uwagi oraz pytania: : <a href="mailto:isod.wsparcie@iem.pw.edu.pl">isod.wsparcie@iem.pw.edu.pl</a>.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/libs/jquery-1.11.0.min.js"></script>
+    <script src="bootstrap-3.1.1/js/bootstrap.min.js"></script>
+  </body>
+</html>

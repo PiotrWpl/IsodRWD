@@ -68,3 +68,7 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > a 
 .proposals .table > tbody > tr > td {
   vertical-align: middle;
 }
+
+.defended .dl-horizontal dt {
+  font-weight: normal;
+}
