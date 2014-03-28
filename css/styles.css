@@ -50,7 +50,7 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > a 
 .content.container {
   padding-top: 20px;
 }
-small.extra-information {
+.extra-information {
   color: #777;
   font-style: italic;
 }
@@ -64,4 +64,7 @@ small.extra-information {
 }
 .history.content li li {
   padding: 4px 0;
+}
+.proposals .table > tbody > tr > td {
+  vertical-align: middle;
 }
