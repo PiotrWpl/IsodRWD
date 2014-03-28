@@ -50,7 +50,7 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > a 
 .content.container {
   padding-top: 20px;
 }
-.news.content .panel-body small {
+small.extra-information {
   color: #777;
   font-style: italic;
 }
