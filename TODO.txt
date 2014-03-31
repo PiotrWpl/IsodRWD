@@ -15,7 +15,6 @@ Do zrobienia:
 - szczegóły wykładowca
 - plan zajęć wyszukaj - jsy
 - plan zajęć lista
-- szczegóły plan zajęć
 - szczegóły przedmiot
 - program studiów lista
 

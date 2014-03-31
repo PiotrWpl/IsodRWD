@@ -77,3 +77,15 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > a 
 .sylabus label {
   font-weight: normal;
 }
+
+@media (max-width: 1000px) {
+  .schedule-list .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #DDD;
+    -webkit-overflow-scrolling: touch;
+  }
+}
