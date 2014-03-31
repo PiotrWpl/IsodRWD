@@ -8,10 +8,11 @@ Zrobione:
 - wykładowcy
 - karty przedmiotów
 - program studiów wyszukaj
+- plan zajęć wyszukaj
 
 Do zrobienia:
 - szczegóły wykładowca
-- plan zajęć wyszukaj
+- plan zajęć wyszukaj - jsy
 - plan zajęć lista
 - szczegóły plan zajęć
 - szczegóły przedmiot
