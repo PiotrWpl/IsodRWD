@@ -6,12 +6,12 @@ Zrobione:
 - do pobrania
 - obronione tematy
 - wykładowcy
+- karty przedmiotów
 
 Do zrobienia:
 - szczegóły wykładowca
 - plan zajęć wyszukaj
 - szczegóły plan zajęć
-- karty przedmiotów
 - szczegóły przedmiot
 - szczegóły propozycja tematu
 - program studiów wyszukaj
