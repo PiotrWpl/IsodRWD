@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/favicon.ico">
+
+    <title>ISOD | Internetowy System Obsługi Dziekanatu</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="bootstrap-3.1.1/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/libs/html5shiv-3.7.0.js"></script>
+      <script src="js/libs/respond-1.4.2.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">ISOD Portal</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Studia <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="schedule.html">Plan zajęć</a></li>
+                <li class="divider"></li>
+                <li><a href="sylabus.html">Karty przedmiotów</a></li>
+                <li class="divider"></li>
+                <li><a href="teachers.html">Wykładowcy</a></li>
+                <li class="divider"></li>
+                <li><a href="program.html">Program studiów</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prace dyplomowe <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="defended.html">Obronione</a></li>
+                <li class="divider"></li>
+                <li><a href="proposals.html">Propozycje tematów</a></li>
+              </ul>
+            </li>
+            <li><a href="download.html">Do pobrania</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Na skróty <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://isod.ee.pw.edu.pl/">Wirtualny dziekanat</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.bg.pw.edu.pl/">Biblioteka</a></li>
+                <li class="divider"></li>
+                <li><a href="http://webmail.ee.pw.edu.pl/">Poczta</a></li>
+              </ul>
+            </li>
+            <li><a href="#english" class="text-hide lang-ico lang-en">English</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="program content container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <div class="well well-sm">
+                <form class="form-horizontal" role="form" action="program-list.html">
+                  <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-5 control-label">Kierunek: <strong class="text-danger">*</strong></label>
+                    <div class="col-sm-5">
+                      <select class="form-control input-sm">
+                        <option value="">wybierz</option>
+                        <option value="0">Model 1 I,D,PL,7 +---- Automatyka i robotyka</option>
+                        <option value="1">Model 1 I,D,PL,7 +-------- Automatyka</option>
+                        <option value="2">Model 1 I,D,PL,7 +---- Elektrotechnika</option>
+                        <option value="3">Model 1 I,D,PL,7 +-------- Automatyka i inżynieria komputerowa</option>
+                        <option value="4">Model 1 I,D,PL,7 +-------- Elektroenergetyka</option>
+                        <option value="5">Model 1 I,D,PL,7 +------------ Aparaty Elektroenergetyczne</option>
+                        <option value="6">Model 1 I,D,PL,7 +------------ Automatyka Elektroenergetyczna</option>
+                        <option value="7">Model 1 I,D,PL,7 +------------ Sieci i Systemy Elektroenergetyczne</option>
+                        <option value="8">Model 1 I,D,PL,7 +------------ Wytwarzanie i użytkowanie energii elektrycznej</option>
+                        <option value="9">Model 1 I,D,PL,7 +-------- Elektromechatronika</option>
+                        <option value="10">Model 1 I,D,PL,7 +------------ Maszyny i aparaty</option>
+                        <option value="11">Model 1 I,D,PL,7 +------------ Pojazdy elektryczne</option>
+                        <option value="12">Model 1 I,D,PL,7 +-------- Elektromechatronika Pojazdów i Maszyny Elektryczne</option>
+                        <option value="13">Model 1 I,D,PL,7 +-------- Elektronika Przemysłowa</option>
+                        <option value="14">Model 1 I,D,PL,7 +-------- Elektrotechnika stosowana</option>
+                        <option value="15">Model 1 I,D,PL,7 +------------ Elektrotermia</option>
+                        <option value="16">Model 1 I,D,PL,7 +------------ Inżynieria wysokonapięciowa</option>
+                        <option value="17">Model 1 I,D,PL,7 +------------ Technika świetlna</option>
+                        <option value="18">Model 1 I,D,PL,7 +-------- Systemy Informacyjne i Pomiarowe</option>
+                        <option value="19">Model 1 I,D,PL,7 +-------- Technika Świetlna i Multimedialna</option>
+                        <option value="20">Model 1 I,D,PL,7 +-------- Technika Wysokich Napięć i Kompatybilność Elektromagnetyczna</option>
+                        <option value="21">Model 1 I,D,PL,7 +---- Informatyka</option>
+                        <option value="22">Model 1 I,D,PL,7 +-------- Inżynieria Informatyczna Systemów Technicznych</option>
+                        <option value="23">Model 1 I,D,PL,7 +-------- Inżynieria Komputerowa</option>
+                        <option value="24">Model 1 I,D,PL,7 +-------- Inżynieria Oprogramowania</option>
+                        <option value="25">Model 1 M,D,PL,3 +---- Automatyka i robotyka</option>
+                        <option value="26">Model 1 M,D,PL,3 +---- Elektrotechnika</option>
+                        <option value="27">Model 1 M,D,PL,3 +-------- Automatyka i Inżynieria Komputerowa</option>
+                        <option value="28">Model 1 M,D,PL,3 +-------- Elektroenergetyka</option>
+                        <option value="29">Model 1 M,D,PL,3 +------------ Automatyka Elektroenergetyczna i Aparaty</option>
+                        <option value="30">Model 1 M,D,PL,3 +------------ Sieci i Systemy Elektroenergetyczne</option>
+                        <option value="31">Model 1 M,D,PL,3 +------------ Wspólny EN</option>
+                        <option value="32">Model 1 M,D,PL,3 +------------ Wytwarzanie i użytkowanie energii elektrycznej</option>
+                        <option value="33">Model 1 M,D,PL,3 +-------- Elektromechatronika</option>
+                        <option value="34">Model 1 M,D,PL,3 +------------ Aparaty Elektryczne</option>
+                        <option value="35">Model 1 M,D,PL,3 +------------ Elektromechatronika pojazdów samochodowych</option>
+                        <option value="36">Model 1 M,D,PL,3 +------------ Inżynieria elektryczna systemów transportu</option>
+                        <option value="37">Model 1 M,D,PL,3 +------------ Maszyny Elektryczne</option>
+                        <option value="38">Model 1 M,D,PL,3 +------------ Wspólny EM</option>
+                        <option value="39">Model 1 M,D,PL,3 +-------- Elektrotechnika Stosowana</option>
+                        <option value="40">Model 1 M,D,PL,3 +------------ Elektrotermia</option>
+                        <option value="41">Model 1 M,D,PL,3 +------------ Inżynieria wysokonapięciowa</option>
+                        <option value="42">Model 1 M,D,PL,3 +------------ Technika świetlna</option>
+                        <option value="43">Model 1 M,D,PL,3 +------------ Wspólny ES</option>
+                        <option value="44">Model 1 M,D,PL,3 +---- Informatyka</option>
+                        <option value="45">Model 1 M,D,PL,3 +-------- Inżynieria Informatyczna Systemów Technicznych</option>
+                        <option value="46">Model 1 M,D,PL,3 +-------- Inżynieria komputerowa</option>
+                        <option value="47">Model 1 M,D,PL,3 +-------- Inżynieria Oprogramowania</option>
+                        <option value="48">Model 2 I,D,EN,8 +---- Electrical Engineering</option>
+                        <option value="49">Model 2 I,D,EN,8 +-------- Control and Computer Engineering</option>
+                        <option value="50">Model 2 I,D,EN,8 +-------- Electric Power Engineering</option>
+                        <option value="51">Model 2 I,D,EN,8 +-------- Ogólna – bez specjalności</option>
+                        <option value="52">Model 2 M,D,EN,3 +---- Electrical Engineering</option>
+                        <option value="53">Model 2 I,Z,PL,8 +---- Elektrotechnika</option>
+                        <option value="54">Model 2 I,Z,PL,8 +-------- Automatyka i Inżynieria Komputerowa</option>
+                        <option value="55">Model 2 I,Z,PL,8 +-------- Elektroenergetyka</option>
+                        <option value="56">Model 2 I,Z,PL,8 +-------- Elektromechatronika</option>
+                        <option value="57">Model 2 I,Z,PL,8 +-------- Elektrotechnika Stosowana</option>
+                        <option value="58">Model 2 M,Z,PL,4 +---- Elektrotechnika</option>
+                        <option value="59">Model 2 M,Z,PL,4 +-------- Automatyka i Inżynieria Komputerowa</option>
+                        <option value="60">Model 2 M,Z,PL,4 +-------- Elektroenergetyka</option>
+                        <option value="61">Model 2 M,Z,PL,4 +-------- Elektromechatronika</option>
+                        <option value="62">Model 2 M,Z,PL,4 +-------- Elektrotechnika Stosowana</option>
+                        <option value="63">Doktoranckie D,D,PL,10 +---- Automatyka i Robotyka</option>
+                        <option value="64">Doktoranckie D,D,PL,10 +---- Elektrotechnika</option>
+                        <option value="65">Doktoranckie D,D,PL,10 +---- Informatyka</option>
+                        <option value="66">Podyplomowe P,Z,PL,2 +---- Elektrotechnika</option>
+                        <option value="67">Podyplomowe P,Z,PL,2 +-------- Zasilanie sieciowe pojazdów trakcyjnych</option>
+                        <option value="68">Podyplomowe P,Z,PL,2 +---- Informatyka</option>
+                        <option value="69">Podyplomowe P,Z,PL,2 - Bazy danych i analiza danych w biznesie</option>
+                        <option value="70">Podyplomowe P,Z,PL,2 - Informatyka w systemach kontrolno-pomiarowych</option>
+                        <option value="71">Podyplomowe P,Z,PL,2 - Metody i narzędzia inżynierii oprogramowania</option>
+                        <option value="72">Podyplomowe P,Z,PL,2 - Projektowanie i administracja systemami baz danych</option>
+                        <option value="73">Podyplomowe P,Z,PL,2 - Systemy wspomagania decyzji biznesowych</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-5 control-label">Semestr studiów: &nbsp;</label>
+                    <div class="col-sm-5">
+                      <select class="form-control input-sm">
+                        <option value="">wszystkie</option>
+                        <option value="0">1</option>
+                        <option value="1">2</option>
+                        <option value="2">3</option>
+                        <option value="3">4</option>
+                        <option value="4">5</option>
+                        <option value="5">6</option>
+                        <option value="6">7</option>
+                        <option value="7">8</option>
+                        <option value="8">9</option>
+                        <option value="9">10</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-5 control-label">Nr wersji programu: <strong class="text-danger">*</strong></label>
+                    <div class="col-sm-5">
+                      <select class="form-control input-sm" disabled="disabled">
+                        <option value="">Wybierz</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-5 text-right">
+                      <strong class="text-danger">*</strong> <small class="extra-information">- pola obowiązkowe</small>
+                    </div>
+                    <div class="col-sm-5">
+                      <button type="submit" class="btn btn-success">Szukaj</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="panel-footer text-center">
+              Portal Dydaktyczny 2010-2014 (wersja: <a href="history.html"><span>2.0.0</span></a>) | Icons by <a href="http://glyphicons.com/">Glyphicons</a><br/>
+              Uwagi oraz pytania: : <a href="mailto:isod.wsparcie@iem.pw.edu.pl">isod.wsparcie@iem.pw.edu.pl</a>.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/libs/jquery-1.11.0.min.js"></script>
+    <script src="bootstrap-3.1.1/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -7,14 +7,16 @@ Zrobione:
 - obronione tematy
 - wykładowcy
 - karty przedmiotów
+- program studiów wyszukaj
 
 Do zrobienia:
 - szczegóły wykładowca
 - plan zajęć wyszukaj
+- plan zajęć lista
 - szczegóły plan zajęć
 - szczegóły przedmiot
 - szczegóły propozycja tematu
-- program studiów wyszukaj
+- program studiów lista
 
 Extra:
 - zeruj filtry
@@ -22,6 +24,7 @@ Extra:
 - tło strony
 - id i typy inputów
 - reset formularza
+- js (wyszukaj itd)
 
 Testy:
 - android tablet
