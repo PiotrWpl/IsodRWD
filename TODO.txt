@@ -9,6 +9,7 @@ Zrobione:
 - karty przedmiotów
 - program studiów wyszukaj
 - plan zajęć wyszukaj
+- szczegóły propozycja tematu
 
 Do zrobienia:
 - szczegóły wykładowca
@@ -16,7 +17,6 @@ Do zrobienia:
 - plan zajęć lista
 - szczegóły plan zajęć
 - szczegóły przedmiot
-- szczegóły propozycja tematu
 - program studiów lista
 
 Extra:
