@@ -5,10 +5,10 @@ Zrobione:
 - historia strony
 - do pobrania
 - obronione tematy
+- wykładowcy
 
 Do zrobienia:
 - szczegóły wykładowca
-- wykładowcy
 - plan zajęć wyszukaj
 - szczegóły plan zajęć
 - karty przedmiotów
@@ -20,6 +20,8 @@ Extra:
 - zeruj filtry
 - kolory linków
 - tło strony
+- id i typy inputów
+- reset formularza
 
 Testy:
 - android tablet
