@@ -13,9 +13,9 @@ Zrobione:
 - plan zajęć wyszukaj - jsy
 - plan zajęć lista
 - szczegóły wykładowca
+- szczegóły przedmiot
 
 Do zrobienia:
-- szczegóły przedmiot
 - program studiów lista
 
 Extra:
