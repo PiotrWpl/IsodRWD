@@ -81,7 +81,18 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > a 
 }
 
 .teacher .subjects-list li {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.togglable-list li {
+  margin-bottom: 5px;
+}
+.togglable-list .togglable-details {
+  display: none;
+}
+
+.togglable-list li.show-togglable-details .togglable-details {
+  display: block;
 }
 
 @media (max-width: 1000px) {

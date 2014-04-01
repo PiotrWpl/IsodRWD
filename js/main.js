@@ -1,7 +1,8 @@
 (function () {
-  var $scheduleList = $('.schedule-list');
+  var $scheduleList = $('.schedule-list'),
+      $togglableList = $('.togglable-list');
 
-  if ($scheduleList) {
+  if ($scheduleList.length) {
     var specialistyValue = '',
         semesterValue = '',
         $groupContainer = $('.group-check-container');
@@ -50,6 +51,15 @@
     $('#selectSemester').change(function (ev) {
       semesterValue = ev.target.value;
       checkGroup();
+    });
+  }
+  if ($togglableList.length) {
+    $togglableList.find('a').click(function (ev) {
+      ev.preventDefault();
+      var $this = $(this),
+          $parent = $this.parents('li');
+
+      $parent.toggleClass('show-togglable-details');
     });
   }
 })();
