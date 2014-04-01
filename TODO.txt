@@ -12,9 +12,9 @@ Zrobione:
 - szczegóły propozycja tematu
 - plan zajęć wyszukaj - jsy
 - plan zajęć lista
+- szczegóły wykładowca
 
 Do zrobienia:
-- szczegóły wykładowca
 - szczegóły przedmiot
 - program studiów lista
 
