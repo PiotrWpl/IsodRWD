@@ -10,11 +10,11 @@ Zrobione:
 - program studiów wyszukaj
 - plan zajęć wyszukaj
 - szczegóły propozycja tematu
+- plan zajęć wyszukaj - jsy
+- plan zajęć lista
 
 Do zrobienia:
 - szczegóły wykładowca
-- plan zajęć wyszukaj - jsy
-- plan zajęć lista
 - szczegóły przedmiot
 - program studiów lista
 

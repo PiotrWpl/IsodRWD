@@ -70,6 +70,7 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > a 
   vertical-align: middle;
 }
 
+.teacher .dl-horizontal dt,
 .topic-details .dl-horizontal dt,
 .defended .dl-horizontal dt {
   font-weight: normal;
