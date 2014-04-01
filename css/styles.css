@@ -50,7 +50,8 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > a 
 .content.container {
   padding-top: 20px;
 }
-.extra-information {
+.extra-information,
+.less-significant-text {
   color: #777;
   font-style: italic;
 }
@@ -89,3 +90,19 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > a 
     -webkit-overflow-scrolling: touch;
   }
 }
+
+/* z isodu */
+.plan-matrix.table > tbody > tr > td {
+  text-align: center;
+  vertical-align: middle;
+}
+.plan-matrix.table-bordered > thead > tr > th {
+  border-bottom-width: 0;
+}
+.plan-matrix.table-bordered > tbody > tr > td.plan-item {
+  border: 2px solid #000;
+}
+.overlapping-warning {
+  background-color: #F5A9A9;
+}
+
