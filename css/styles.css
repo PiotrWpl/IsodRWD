@@ -103,6 +103,10 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > a 
   display: block;
 }
 
+.extra-bottom-margin {
+  margin-bottom: 20px;
+}
+
 @media (max-width: 1000px) {
   /*.schedule-list*/ .table-responsive {
     width: 100%;
