@@ -80,8 +80,12 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > a 
   font-weight: normal;
 }
 
+.teacher .subjects-list li {
+  margin-bottom: 10px;
+}
+
 @media (max-width: 1000px) {
-  .schedule-list .table-responsive {
+  /*.schedule-list*/ .table-responsive {
     width: 100%;
     margin-bottom: 15px;
     overflow-y: hidden;
