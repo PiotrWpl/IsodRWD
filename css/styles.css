@@ -91,6 +91,14 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > a 
   }
 }
 
+#checkAll {
+  margin-right: 8px;
+  line-height: normal;
+  vertical-align: middle;
+  display: inline-block;
+  padding-top: 7px;
+  background-color: #fff;
+}
 /* z isodu */
 .plan-matrix.table > tbody > tr > td {
   text-align: center;

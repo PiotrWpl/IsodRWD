@@ -128,9 +128,9 @@
                     </div>
                   </div>
                   <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-5 control-label">Specjalność:</label>
+                    <label for="selectSpeciality" class="col-sm-5 control-label">Specjalność:</label>
                     <div class="col-sm-5">
-                      <select class="form-control input-sm">
+                      <select id="selectSpeciality" class="form-control input-sm">
                         <option selected="selected" value="">Wybierz specjalność</option>
                         <option value="0">I,D,PL - Automatyka i Robotyka</option>
                         <option value="1">I,D,PL - Automatyka i Robotyka - Automatyka</option>
@@ -173,9 +173,9 @@
                     </div>
                   </div>
                   <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-5 control-label">Numer semestru:</label>
+                    <label for="selectSemester" class="col-sm-5 control-label">Numer semestru:</label>
                     <div class="col-sm-5">
-                      <select class="form-control input-sm">
+                      <select id="selectSemester" class="form-control input-sm">
                         <option selected="selected" value="">Wybierz</option>
                         <option value="0">1</option>
                         <option value="1">2</option>
@@ -191,8 +191,8 @@
                     </div>
                   </div>
                   <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-5 control-label">Grupa:</label>
-                    <div class="col-sm-5">
+                    <label for="groupCheck" class="col-sm-5 control-label">Grupa:</label>
+                    <div class="group-check-container col-sm-5">
                       <span class="extra-information">Pojawi się po wybraniu specjalności i semestru studiów</span>
                     </div>
                   </div>
@@ -250,12 +250,12 @@
                           <td rowspan="2" class="plan-item overlapping">
                               <div>
                                   <div>
-                                      <span id="idde9" title="dr inż. Tomasz Zdziarski"><em><img id="icon" class="info-icon" src="assets/teacher_gray_small.png"> <span>Lab.</span> <span>1DE1217:A -</span> <span>Materiałoznawstwo elektrotechniczne</span></em></span> <span class="less-significant-text">GR1</span><span>, I połowa sem.</span>, <span>GE 007</span>
+                                      <span id="idde9" title="dr inż. Tomasz Zdziarski"><em><span class="glyphicon glyphicon-user"></span> <span>Lab.</span> <span>1DE1217:A -</span> <span>Materiałoznawstwo elektrotechniczne</span></em></span> <span class="less-significant-text">GR1</span><span>, I połowa sem.</span>, <span>GE 007</span>
                                   </div>
                               </div>
                               <div>
                                   <div>
-                                      <span id="iddea" title="dr inż. Tomasz Zdziarski"><em><img id="icon2" class="info-icon" src="assets/teacher_gray_small.png"> <span>Lab.</span> <span>1DE1217:A -</span> <span>Materiałoznawstwo elektrotechniczne</span></em></span> <span class="less-significant-text">GR1</span><span>, II połowa sem.</span>, <span>GE 007</span>
+                                      <span id="iddea" title="dr inż. Tomasz Zdziarski"><em><span class="glyphicon glyphicon-user"></span> <span>Lab.</span> <span>1DE1217:A -</span> <span>Materiałoznawstwo elektrotechniczne</span></em></span> <span class="less-significant-text">GR1</span><span>, II połowa sem.</span>, <span>GE 007</span>
                                   </div>
                               </div>
                               <div class="add-link">
@@ -265,7 +265,7 @@
                           <td rowspan="2" class="plan-item">
                               <div>
                                   <div>
-                                      <span id="iddec" title="mgr inż. Daniel Kucharski, mgr inż. Łukasz Rosłaniec, dr inż. Marcin Wesołowski"><em><img id="icon3" class="info-icon" src="assets/teacher_gray_small.png"> <span>Lab.</span> <span>1DE1218:A -</span> <span>Przemiany energetyczne lab</span></em></span> <span class="less-significant-text">GR2</span><span>, organizacja zajęć - do ustalenia</span>, <span>GE-c 302</span>
+                                      <span id="iddec" title="mgr inż. Daniel Kucharski, mgr inż. Łukasz Rosłaniec, dr inż. Marcin Wesołowski"><em><span class="glyphicon glyphicon-user"></span> <span>Lab.</span> <span>1DE1218:A -</span> <span>Przemiany energetyczne lab</span></em></span> <span class="less-significant-text">GR2</span><span>, organizacja zajęć - do ustalenia</span>, <span>GE-c 302</span>
                                   </div>
                               </div>
                               <div class="add-link">
@@ -275,7 +275,7 @@
                           <td rowspan="2" class="plan-item">
                               <div>
                                   <div>
-                                      <span id="iddee" title="Tomasz Miazga, dr inż. Jarosław Szostakowski"><em><img id="icon4" class="info-icon" src="assets/teacher_gray_small.png"> <span>Proj.</span> <span>1DE1211:A -</span> <span>Języki i metodyka programowania 2</span></em></span> <span class="less-significant-text">GR3</span><span>, tyg. nieparz.</span>, <span>SK 204</span>
+                                      <span id="iddee" title="Tomasz Miazga, dr inż. Jarosław Szostakowski"><em><span class="glyphicon glyphicon-user"></span> <span>Proj.</span> <span>1DE1211:A -</span> <span>Języki i metodyka programowania 2</span></em></span> <span class="less-significant-text">GR3</span><span>, tyg. nieparz.</span>, <span>SK 204</span>
                                   </div>
                               </div>
                               <div class="add-link">
@@ -345,12 +345,12 @@
                           <td colspan="4" rowspan="2" class="plan-item overlapping overlapping-warning">
                               <div>
                                   <div>
-                                      <span id="iddfa" title="dr Alina Naruniec"><em><img id="icon5" class="info-icon" src="assets/teacher_gray_small.png"> <span>1DW1202:A -</span> <span>Podstawy zarządzania</span></em></span> <span class="less-significant-text">GR1, GR2, GR3, GR4</span>, <span>GG 306</span>
+                                      <span id="iddfa" title="dr Alina Naruniec"><em><span class="glyphicon glyphicon-user"></span> <span>1DW1202:A -</span> <span>Podstawy zarządzania</span></em></span> <span class="less-significant-text">GR1, GR2, GR3, GR4</span>, <span>GG 306</span>
                                   </div>
                               </div>
                               <div>
                                   <div>
-                                      <span id="iddfb" title="dr inż. Maciej Sławiński"><em><img id="icon6" class="info-icon" src="assets/teacher_gray_small.png"> <span>1DE1207:A -</span> <span>Systemy informacyjne</span></em></span> <span class="less-significant-text">GR1, GR2, GR3, GR4, GR5, GR6, GR7, GR8</span><span>, Cykl inny</span>, <span>SK 201</span>
+                                      <span id="iddfb" title="dr inż. Maciej Sławiński"><em><span class="glyphicon glyphicon-user"></span> <span>1DE1207:A -</span> <span>Systemy informacyjne</span></em></span> <span class="less-significant-text">GR1, GR2, GR3, GR4, GR5, GR6, GR7, GR8</span><span>, Cykl inny</span>, <span>SK 201</span>
                                   </div>
                               </div>
                               <div class="add-link">
@@ -360,12 +360,12 @@
                           <td rowspan="2" class="plan-item overlapping">
                               <div>
                                   <div>
-                                      <span id="iddfd" title="dr inż. Konrad Sobolewski"><em><img id="icon7" class="info-icon" src="assets/teacher_gray_small.png"> <span>Proj.</span> <span>1DE1211:B -</span> <span>Języki i metodyka programowania 2</span></em></span> <span class="less-significant-text">GR5</span><span>, I połowa sem.</span>, <span>GE 225</span>
+                                      <span id="iddfd" title="dr inż. Konrad Sobolewski"><em><span class="glyphicon glyphicon-user"></span> <span>Proj.</span> <span>1DE1211:B -</span> <span>Języki i metodyka programowania 2</span></em></span> <span class="less-significant-text">GR5</span><span>, I połowa sem.</span>, <span>GE 225</span>
                                   </div>
                               </div>
                               <div>
                                   <div>
-                                      <span id="iddfe" title="dr inż. Maciej Sławiński"><em><img id="icon8" class="info-icon" src="assets/teacher_gray_small.png"> <span>1DE1207:A -</span> <span>Systemy informacyjne</span></em></span> <span class="less-significant-text">GR1, GR2, GR3, GR4, GR5, GR6, GR7, GR8</span><span>, Cykl inny</span>, <span>SK 201</span>
+                                      <span id="iddfe" title="dr inż. Maciej Sławiński"><em><span class="glyphicon glyphicon-user"></span> <span>1DE1207:A -</span> <span>Systemy informacyjne</span></em></span> <span class="less-significant-text">GR1, GR2, GR3, GR4, GR5, GR6, GR7, GR8</span><span>, Cykl inny</span>, <span>SK 201</span>
                                   </div>
                               </div>
                               <div class="add-link">
@@ -375,7 +375,7 @@
                           <td colspan="3" rowspan="2" class="plan-item">
                               <div>
                                   <div>
-                                      <span id="ide00" title="dr inż. Maciej Sławiński"><em><img id="icon9" class="info-icon" src="assets/teacher_gray_small.png"> <span>1DE1207:A -</span> <span>Systemy informacyjne</span></em></span> <span class="less-significant-text">GR1, GR2, GR3, GR4, GR5, GR6, GR7, GR8</span><span>, Cykl inny</span>, <span>SK 201</span>
+                                      <span id="ide00" title="dr inż. Maciej Sławiński"><em><span class="glyphicon glyphicon-user"></span> <span>1DE1207:A -</span> <span>Systemy informacyjne</span></em></span> <span class="less-significant-text">GR1, GR2, GR3, GR4, GR5, GR6, GR7, GR8</span><span>, Cykl inny</span>, <span>SK 201</span>
                                   </div>
                               </div>
                               <div class="add-link">
@@ -395,7 +395,7 @@
                           <td colspan="4" rowspan="2" class="plan-item">
                               <div>
                                   <div>
-                                      <span id="ide02" title="prof. nzw. dr hab. inż. Tomasz Markiewicz"><em><img id="icon10" class="info-icon" src="assets/teacher_gray_small.png"> <span>1DE1201:A -</span> <span>Metody numeryczne</span></em></span> <span class="less-significant-text">GR1, GR2, GR3, GR4</span>, <span>GG 219</span>
+                                      <span id="ide02" title="prof. nzw. dr hab. inż. Tomasz Markiewicz"><em><span class="glyphicon glyphicon-user"></span> <span>1DE1201:A -</span> <span>Metody numeryczne</span></em></span> <span class="less-significant-text">GR1, GR2, GR3, GR4</span>, <span>GG 219</span>
                                   </div>
                               </div>
                               <div class="add-link">
@@ -405,7 +405,7 @@
                           <td colspan="4" rowspan="2" class="plan-item">
                               <div>
                                   <div>
-                                      <span id="ide04" title="dr Alina Naruniec"><em><img id="icon11" class="info-icon" src="assets/teacher_gray_small.png"> <span>1DW1202:A -</span> <span>Podstawy zarządzania</span></em></span> <span class="less-significant-text">GR5, GR6, GR7, GR8</span>, <span>GG 306</span>
+                                      <span id="ide04" title="dr Alina Naruniec"><em><span class="glyphicon glyphicon-user"></span> <span>1DW1202:A -</span> <span>Podstawy zarządzania</span></em></span> <span class="less-significant-text">GR5, GR6, GR7, GR8</span>, <span>GG 306</span>
                                   </div>
                               </div>
                               <div class="add-link">
@@ -425,7 +425,7 @@
                           <td colspan="4" rowspan="2" class="plan-item">
                               <div>
                                   <div>
-                                      <span id="ide06" title="prof. nzw. dr hab. inż. Jerzy Matysik"><em><img id="icon12" class="info-icon" src="assets/teacher_gray_small.png"> <span>1DE1213:A -</span> <span>Podstawy elektroniki</span></em></span> <span class="less-significant-text">GR1, GR2, GR3, GR4</span>, <span>SK 108</span>
+                                      <span id="ide06" title="prof. nzw. dr hab. inż. Jerzy Matysik"><em><span class="glyphicon glyphicon-user"></span> <span>1DE1213:A -</span> <span>Podstawy elektroniki</span></em></span> <span class="less-significant-text">GR1, GR2, GR3, GR4</span>, <span>SK 108</span>
                                   </div>
                               </div>
                               <div class="add-link">
@@ -435,7 +435,7 @@
                           <td colspan="4" rowspan="2" class="plan-item">
                               <div>
                                   <div>
-                                      <span id="ide08" title="dr inż. Michał Wojciechowski"><em><img id="icon13" class="info-icon" src="assets/teacher_gray_small.png"> <span>1DE1217:A -</span> <span>Materiałoznawstwo elektrotechniczne</span></em></span> <span class="less-significant-text">GR5, GR6, GR7, GR8</span><span>, I połowa sem.</span>, <span>GE AE</span>
+                                      <span id="ide08" title="dr inż. Michał Wojciechowski"><em><span class="glyphicon glyphicon-user"></span> <span>1DE1217:A -</span> <span>Materiałoznawstwo elektrotechniczne</span></em></span> <span class="less-significant-text">GR5, GR6, GR7, GR8</span><span>, I połowa sem.</span>, <span>GE AE</span>
                                   </div>
                               </div>
                               <div class="add-link">
@@ -455,7 +455,7 @@
                           <td colspan="4" rowspan="2" class="plan-item">
                               <div>
                                   <div>
-                                      <span id="ide0a" title="dr inż. Michał Wojciechowski"><em><img id="icon14" class="info-icon" src="assets/teacher_gray_small.png"> <span>1DE1217:A -</span> <span>Materiałoznawstwo elektrotechniczne</span></em></span> <span class="less-significant-text">GR1, GR2, GR3, GR4</span><span>, I połowa sem.</span>, <span>GE AE</span>
+                                      <span id="ide0a" title="dr inż. Michał Wojciechowski"><em><span class="glyphicon glyphicon-user"></span> <span>1DE1217:A -</span> <span>Materiałoznawstwo elektrotechniczne</span></em></span> <span class="less-significant-text">GR1, GR2, GR3, GR4</span><span>, I połowa sem.</span>, <span>GE AE</span>
                                   </div>
                               </div>
                               <div class="add-link">
@@ -465,7 +465,7 @@
                           <td colspan="4" rowspan="2" class="plan-item">
                               <div>
                                   <div>
-                                      <span id="ide0c" title="prof. nzw. dr hab. inż. Jerzy Matysik"><em><img id="icon15" class="info-icon" src="assets/teacher_gray_small.png"> <span>1DE1213:A -</span> <span>Podstawy elektroniki</span></em></span> <span class="less-significant-text">GR5, GR6, GR7, GR8</span>, <span>SK 108</span>
+                                      <span id="ide0c" title="prof. nzw. dr hab. inż. Jerzy Matysik"><em><span class="glyphicon glyphicon-user"></span> <span>1DE1213:A -</span> <span>Podstawy elektroniki</span></em></span> <span class="less-significant-text">GR5, GR6, GR7, GR8</span>, <span>SK 108</span>
                                   </div>
                               </div>
                               <div class="add-link">
