@@ -25,6 +25,8 @@ Extra:
 - id i typy inputów
 - reset formularza
 - js (wyszukaj itd)
+- szlify szczegółów wykładowcy
+- szlify ogólne
 
 Testy:
 - android tablet

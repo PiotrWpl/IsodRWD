@@ -83,6 +83,14 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > a 
 .teacher .subjects-list li {
   margin-bottom: 5px;
 }
+.sylabus-details dd {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.sylabus-details dd ol {
+  -webkit-padding-start: 0;
+  margin-left: 0;
+}
 
 .togglable-list li {
   margin-bottom: 5px;
