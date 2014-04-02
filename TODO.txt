@@ -14,8 +14,6 @@ Zrobione:
 - plan zajęć lista
 - szczegóły wykładowca
 - szczegóły przedmiot
-
-Do zrobienia:
 - program studiów lista
 
 Extra:
@@ -26,6 +24,7 @@ Extra:
 - reset formularza
 - js (wyszukaj itd)
 - szlify szczegółów wykładowcy
+- szlify programu studiów
 - szlify ogólne
 - alerty o braku wypełnionych danych w formularzu
 

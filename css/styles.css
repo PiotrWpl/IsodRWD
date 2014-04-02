@@ -19,6 +19,18 @@ ol li {
 body {
   padding-top: 50px;
   background-color: #069;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #006699),
+    color-stop(1, #014E75)
+  );
+  background-image: -o-linear-gradient(bottom, #006699 0%, #014E75 100%);
+  background-image: -moz-linear-gradient(bottom, #006699 0%, #014E75 100%);
+  background-image: -webkit-linear-gradient(bottom, #006699 0%, #014E75 100%);
+  background-image: -ms-linear-gradient(bottom, #006699 0%, #014E75 100%);
+  background-image: linear-gradient(to bottom, #006699 0%, #014E75 100%);
 }
 .well {
   background-image: -webkit-linear-gradient(top,#FAFAFA 0,#FCFCFC 100%);
