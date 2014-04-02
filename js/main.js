@@ -57,7 +57,7 @@
     $togglableList.find('a.togglable').click(function (ev) {
       ev.preventDefault();
       var $this = $(this),
-          $parent = $this.parents('li');
+          $parent = $this.closest('li,td');
 
       $parent.toggleClass('show-togglable-details');
     });

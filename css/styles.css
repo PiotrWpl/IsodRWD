@@ -99,7 +99,7 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > a 
   display: none;
 }
 
-.togglable-list li.show-togglable-details .togglable-details {
+.togglable-list .show-togglable-details .togglable-details {
   display: block;
 }
 
