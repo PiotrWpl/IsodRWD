@@ -27,6 +27,7 @@ Extra:
 - js (wyszukaj itd)
 - szlify szczegółów wykładowcy
 - szlify ogólne
+- alerty o braku wypełnionych danych w formularzu
 
 Testy:
 - android tablet

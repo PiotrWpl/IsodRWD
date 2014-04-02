@@ -107,6 +107,20 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > a 
   margin-bottom: 20px;
 }
 
+.program-list .table > thead > tr > th {
+  vertical-align: middle;
+}
+.program-list .subjects-list .not-attended,
+.program-list .subjects-list tr.not-attended > td {
+  /*background-color: #F4F7FB;*/
+}
+.plan-matrix.table > tbody > tr > td.text-left {
+  text-align: left;
+}
+.plan-matrix.table > tbody > tr > td.text-right {
+  text-align: right;
+}
+
 @media (max-width: 1000px) {
   /*.schedule-list*/ .table-responsive {
     width: 100%;

@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/favicon.ico">
+
+    <title>ISOD | Internetowy System Obsługi Dziekanatu</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="bootstrap-3.1.1/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/libs/html5shiv-3.7.0.js"></script>
+      <script src="js/libs/respond-1.4.2.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">ISOD Portal</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Studia <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="schedule.html">Plan zajęć</a></li>
+                <li class="divider"></li>
+                <li><a href="sylabus.html">Karty przedmiotów</a></li>
+                <li class="divider"></li>
+                <li><a href="teachers.html">Wykładowcy</a></li>
+                <li class="divider"></li>
+                <li><a href="program.html">Program studiów</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prace dyplomowe <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="defended.html">Obronione</a></li>
+                <li class="divider"></li>
+                <li><a href="proposals.html">Propozycje tematów</a></li>
+              </ul>
+            </li>
+            <li><a href="download.html">Do pobrania</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Na skróty <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://isod.ee.pw.edu.pl/">Wirtualny dziekanat</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.bg.pw.edu.pl/">Biblioteka</a></li>
+                <li class="divider"></li>
+                <li><a href="http://webmail.ee.pw.edu.pl/">Poczta</a></li>
+              </ul>
+            </li>
+            <li><a href="#english" class="text-hide lang-ico lang-en">English</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="program-list content container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <div class="well well-sm">
+                <form class="form-horizontal" role="form" action="program-list.html">
+                  <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-5 control-label">Kierunek: <strong class="text-danger">*</strong></label>
+                    <div class="col-sm-5">
+                      <select class="form-control input-sm">
+                        <option value="">wybierz</option>
+                        <option value="0">Model 1 I,D,PL,7 +---- Automatyka i robotyka</option>
+                        <option value="1">Model 1 I,D,PL,7 +-------- Automatyka</option>
+                        <option value="2">Model 1 I,D,PL,7 +---- Elektrotechnika</option>
+                        <option value="3">Model 1 I,D,PL,7 +-------- Automatyka i inżynieria komputerowa</option>
+                        <option value="4">Model 1 I,D,PL,7 +-------- Elektroenergetyka</option>
+                        <option value="5">Model 1 I,D,PL,7 +------------ Aparaty Elektroenergetyczne</option>
+                        <option value="6">Model 1 I,D,PL,7 +------------ Automatyka Elektroenergetyczna</option>
+                        <option value="7">Model 1 I,D,PL,7 +------------ Sieci i Systemy Elektroenergetyczne</option>
+                        <option value="8">Model 1 I,D,PL,7 +------------ Wytwarzanie i użytkowanie energii elektrycznej</option>
+                        <option value="9">Model 1 I,D,PL,7 +-------- Elektromechatronika</option>
+                        <option value="10">Model 1 I,D,PL,7 +------------ Maszyny i aparaty</option>
+                        <option value="11">Model 1 I,D,PL,7 +------------ Pojazdy elektryczne</option>
+                        <option value="12">Model 1 I,D,PL,7 +-------- Elektromechatronika Pojazdów i Maszyny Elektryczne</option>
+                        <option value="13">Model 1 I,D,PL,7 +-------- Elektronika Przemysłowa</option>
+                        <option value="14">Model 1 I,D,PL,7 +-------- Elektrotechnika stosowana</option>
+                        <option value="15">Model 1 I,D,PL,7 +------------ Elektrotermia</option>
+                        <option value="16">Model 1 I,D,PL,7 +------------ Inżynieria wysokonapięciowa</option>
+                        <option value="17">Model 1 I,D,PL,7 +------------ Technika świetlna</option>
+                        <option value="18">Model 1 I,D,PL,7 +-------- Systemy Informacyjne i Pomiarowe</option>
+                        <option value="19">Model 1 I,D,PL,7 +-------- Technika Świetlna i Multimedialna</option>
+                        <option value="20">Model 1 I,D,PL,7 +-------- Technika Wysokich Napięć i Kompatybilność Elektromagnetyczna</option>
+                        <option value="21">Model 1 I,D,PL,7 +---- Informatyka</option>
+                        <option value="22">Model 1 I,D,PL,7 +-------- Inżynieria Informatyczna Systemów Technicznych</option>
+                        <option value="23">Model 1 I,D,PL,7 +-------- Inżynieria Komputerowa</option>
+                        <option value="24">Model 1 I,D,PL,7 +-------- Inżynieria Oprogramowania</option>
+                        <option value="25">Model 1 M,D,PL,3 +---- Automatyka i robotyka</option>
+                        <option value="26">Model 1 M,D,PL,3 +---- Elektrotechnika</option>
+                        <option value="27">Model 1 M,D,PL,3 +-------- Automatyka i Inżynieria Komputerowa</option>
+                        <option value="28">Model 1 M,D,PL,3 +-------- Elektroenergetyka</option>
+                        <option value="29">Model 1 M,D,PL,3 +------------ Automatyka Elektroenergetyczna i Aparaty</option>
+                        <option value="30">Model 1 M,D,PL,3 +------------ Sieci i Systemy Elektroenergetyczne</option>
+                        <option value="31">Model 1 M,D,PL,3 +------------ Wspólny EN</option>
+                        <option value="32">Model 1 M,D,PL,3 +------------ Wytwarzanie i użytkowanie energii elektrycznej</option>
+                        <option value="33">Model 1 M,D,PL,3 +-------- Elektromechatronika</option>
+                        <option value="34">Model 1 M,D,PL,3 +------------ Aparaty Elektryczne</option>
+                        <option value="35">Model 1 M,D,PL,3 +------------ Elektromechatronika pojazdów samochodowych</option>
+                        <option value="36">Model 1 M,D,PL,3 +------------ Inżynieria elektryczna systemów transportu</option>
+                        <option value="37">Model 1 M,D,PL,3 +------------ Maszyny Elektryczne</option>
+                        <option value="38">Model 1 M,D,PL,3 +------------ Wspólny EM</option>
+                        <option value="39">Model 1 M,D,PL,3 +-------- Elektrotechnika Stosowana</option>
+                        <option value="40">Model 1 M,D,PL,3 +------------ Elektrotermia</option>
+                        <option value="41">Model 1 M,D,PL,3 +------------ Inżynieria wysokonapięciowa</option>
+                        <option value="42">Model 1 M,D,PL,3 +------------ Technika świetlna</option>
+                        <option value="43">Model 1 M,D,PL,3 +------------ Wspólny ES</option>
+                        <option value="44">Model 1 M,D,PL,3 +---- Informatyka</option>
+                        <option value="45">Model 1 M,D,PL,3 +-------- Inżynieria Informatyczna Systemów Technicznych</option>
+                        <option value="46">Model 1 M,D,PL,3 +-------- Inżynieria komputerowa</option>
+                        <option value="47">Model 1 M,D,PL,3 +-------- Inżynieria Oprogramowania</option>
+                        <option value="48">Model 2 I,D,EN,8 +---- Electrical Engineering</option>
+                        <option value="49">Model 2 I,D,EN,8 +-------- Control and Computer Engineering</option>
+                        <option value="50">Model 2 I,D,EN,8 +-------- Electric Power Engineering</option>
+                        <option value="51">Model 2 I,D,EN,8 +-------- Ogólna – bez specjalności</option>
+                        <option value="52">Model 2 M,D,EN,3 +---- Electrical Engineering</option>
+                        <option value="53">Model 2 I,Z,PL,8 +---- Elektrotechnika</option>
+                        <option value="54">Model 2 I,Z,PL,8 +-------- Automatyka i Inżynieria Komputerowa</option>
+                        <option value="55">Model 2 I,Z,PL,8 +-------- Elektroenergetyka</option>
+                        <option value="56">Model 2 I,Z,PL,8 +-------- Elektromechatronika</option>
+                        <option value="57">Model 2 I,Z,PL,8 +-------- Elektrotechnika Stosowana</option>
+                        <option value="58">Model 2 M,Z,PL,4 +---- Elektrotechnika</option>
+                        <option value="59">Model 2 M,Z,PL,4 +-------- Automatyka i Inżynieria Komputerowa</option>
+                        <option value="60">Model 2 M,Z,PL,4 +-------- Elektroenergetyka</option>
+                        <option value="61">Model 2 M,Z,PL,4 +-------- Elektromechatronika</option>
+                        <option value="62">Model 2 M,Z,PL,4 +-------- Elektrotechnika Stosowana</option>
+                        <option value="63">Doktoranckie D,D,PL,10 +---- Automatyka i Robotyka</option>
+                        <option value="64">Doktoranckie D,D,PL,10 +---- Elektrotechnika</option>
+                        <option value="65">Doktoranckie D,D,PL,10 +---- Informatyka</option>
+                        <option value="66">Podyplomowe P,Z,PL,2 +---- Elektrotechnika</option>
+                        <option value="67">Podyplomowe P,Z,PL,2 +-------- Zasilanie sieciowe pojazdów trakcyjnych</option>
+                        <option value="68">Podyplomowe P,Z,PL,2 +---- Informatyka</option>
+                        <option value="69">Podyplomowe P,Z,PL,2 - Bazy danych i analiza danych w biznesie</option>
+                        <option value="70">Podyplomowe P,Z,PL,2 - Informatyka w systemach kontrolno-pomiarowych</option>
+                        <option value="71">Podyplomowe P,Z,PL,2 - Metody i narzędzia inżynierii oprogramowania</option>
+                        <option value="72">Podyplomowe P,Z,PL,2 - Projektowanie i administracja systemami baz danych</option>
+                        <option value="73">Podyplomowe P,Z,PL,2 - Systemy wspomagania decyzji biznesowych</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-5 control-label">Semestr studiów: &nbsp;</label>
+                    <div class="col-sm-5">
+                      <select class="form-control input-sm">
+                        <option value="">wszystkie</option>
+                        <option value="0">1</option>
+                        <option value="1">2</option>
+                        <option value="2">3</option>
+                        <option value="3">4</option>
+                        <option value="4">5</option>
+                        <option value="5">6</option>
+                        <option value="6">7</option>
+                        <option value="7">8</option>
+                        <option value="8">9</option>
+                        <option value="9">10</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-5 control-label">Nr wersji programu: <strong class="text-danger">*</strong></label>
+                    <div class="col-sm-5">
+                      <select class="form-control input-sm" disabled="disabled">
+                        <option value="">Wybierz</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-5 text-right">
+                      <strong class="text-danger">*</strong> <small class="extra-information">- pola obowiązkowe</small>
+                    </div>
+                    <div class="col-sm-5">
+                      <button type="submit" class="btn btn-success">Szukaj</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="text-right">
+                <a href="https://isod.ee.pw.edu.pl/isod-portal/plany?wicket:interface=:4:plan-for-group:showPrintableVersionLink::ILinkListener::" class="btn btn-info btn-sm">Pokaż panel wydruku</a>
+              </div>
+              <h3>Plan studiów - Model 1</h3>
+              <div class="table-responsive">
+                <table class="plan-matrix table table-bordered">
+                  <thead class="grid table-header">
+                    <tr>
+                        <th colspan="7">
+                            <h4>
+                                Obowiązkowe bloki przedmiotów - koszyki (uwzględniane są tylko przedmioty zaliczone)
+                            </h4>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            Możliwy do<br>
+                            deklaracji<br>
+                            od semestru
+                        </th>
+                        <th>
+                            Wymagana<br>
+                            realizacja<br>
+                            do semestru
+                        </th>
+                        <th>
+                            Rodzaj wymagania
+                        </th>
+                        <th>
+                            Wymagana<br>
+                            liczba<br>
+                            kursów
+                        </th>
+                        <th>
+                            Wymagane ECTS
+                        </th>
+                    </tr>
+                  </thead>
+                  <tbody class="grid vertical-middle">
+                    <tr>
+                        <td>
+                            3
+                        </td>
+                        <td>
+                            3
+                        </td>
+                        <td class="text-left">
+                            dowolny przedmiot z katalogu: Języki obce i egzamin - Dzienne
+                        </td>
+                        <td>
+                            1
+                        </td>
+                        <td>
+                            4
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            4
+                        </td>
+                        <td>
+                            4
+                        </td>
+                        <td class="text-left">
+                            dowolny przedmiot z katalogu: Języki obce i egzamin - Dzienne
+                        </td>
+                        <td>
+                            1
+                        </td>
+                        <td>
+                            4
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            5
+                        </td>
+                        <td>
+                            5
+                        </td>
+                        <td class="text-left">
+                            dowolny przedmiot z katalogu: Języki obce i egzamin - Dzienne
+                        </td>
+                        <td>
+                            1
+                        </td>
+                        <td>
+                            4
+                        </td>
+                    </tr>
+                </tbody>
+                </table>
+              </div>
+
+              <div class="table-responsive">
+                <table class="plan-matrix table table-bordered subjects-list">
+                  <thead class="grid table-header">
+                      <tr>
+                          <th colspan="6">
+                              <h3>
+                                  Przedmioty
+                              </h3>
+                          </th>
+                      </tr>
+                      <tr>
+                          <th>
+                              Semestr<br>
+                              nominalny
+                          </th>
+                          <th>
+                              Specjalizacja (Wersja programu)
+                          </th>
+                          <th>
+                              Numer<br>
+                              kat.
+                          </th>
+                          <th>
+                              Nazwa przedmiotu
+                          </th>
+                          <th>
+                              Godziny
+                          </th>
+                          <th>
+                              ECTS
+                          </th>
+                      </tr>
+                  </thead>
+                  <tbody class="grid vertical-middle">
+                      <tr class="quick-filter-row" id="id30">
+                          <td class="align-center not-attended" rowspan="8">
+                              1
+                          </td>
+                          <td class="align-center not-attended" rowspan="1">
+                              <span>Wydział</span> <span title="Wersja programu studiów">(<span>3</span>)</span>
+                          </td>
+                          <td id="id31">
+                              1DW1101
+                          </td>
+                          <td id="id32" class="text-left">
+                              <span><a href="#"><span>Wychowanie fizyczne 1</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span> <a href="#" class="noprint" id="id33">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="id34">
+                              C:30
+                          </td>
+                          <td id="id35">
+                              <span>0</span>
+                          </td>
+                          <td id="id36" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id37">
+                          <td class="align-center not-attended" rowspan="7">
+                              <span>Elektrotechnika</span> <span title="Wersja programu studiów">(<span>3</span>)</span>
+                          </td>
+                          <td id="id38">
+                              1DE1101
+                          </td>
+                          <td id="id39" class="text-left">
+                              <span><a href="#" ><span>Fizyka 1</span></a></span> &nbsp; <span class="less-significant-text">(<span>Egzamin</span>)</span> <a href="#" class="noprint" id="id3a">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="id3b">
+                              W:45 C:30
+                          </td>
+                          <td id="id3c">
+                              <span>8</span>
+                          </td>
+                          <td id="id3d" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id3e">
+                          <td id="id3f">
+                              1DE1103
+                          </td>
+                          <td id="id40" class="text-left">
+                              <span><a href="#" ><span>Graficzny zapis konstrukcji</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span> <a href="#" class="noprint" id="id41">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="id42">
+                              L:30 P:30
+                          </td>
+                          <td id="id43">
+                              <span>4</span>
+                          </td>
+                          <td id="id44" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id45">
+                          <td id="id46">
+                              1DE1111
+                          </td>
+                          <td id="id47" class="text-left">
+                              <span><a href="#" ><span>Języki i metodyka programowania 1</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span> <a href="#" class="noprint" id="id48">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="id49">
+                              W:30 L:30
+                          </td>
+                          <td id="id4a">
+                              <span>4</span>
+                          </td>
+                          <td id="id4b" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id4c">
+                          <td id="id4d">
+                              1DE1102
+                          </td>
+                          <td id="id4e" class="text-left">
+                              <span><a href="#" ><span>Matematyka 1</span></a></span> &nbsp; <span class="less-significant-text">(<span>Egzamin</span>)</span> <a href="#" class="noprint" id="id4f">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="id50">
+                              W:60 C:60
+                          </td>
+                          <td id="id51">
+                              <span>10</span>
+                          </td>
+                          <td id="id52" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id53">
+                          <td id="id54">
+                              1DW1102
+                          </td>
+                          <td id="id55" class="text-left">
+                              <span><a href="#" ><span>Prawo własności intelektualnej</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span> <a href="#" class="noprint" id="id56">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="id57">
+                              W:30
+                          </td>
+                          <td id="id58">
+                              <span>2</span>
+                          </td>
+                          <td id="id59" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id5a">
+                          <td id="id5b">
+                              1DE1118
+                          </td>
+                          <td id="id5c" class="text-left">
+                              <span><a href="#" ><span>Przemiany energetyczne</span></a></span> &nbsp; <span class="less-significant-text">(<span>Egzamin</span>)</span>
+                          </td>
+                          <td id="id5d">
+                              W:30
+                          </td>
+                          <td id="id5e">
+                              <span>2</span>
+                          </td>
+                          <td id="id5f" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id60">
+                          <td id="id61">
+                              1DW1160
+                          </td>
+                          <td id="id62" class="text-left">
+                              <span><a href="#" ><span>Szkolenie biblioteczne</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span>
+                          </td>
+                          <td id="id63">
+                              W:2
+                          </td>
+                          <td id="id64">
+                              <span>0</span>
+                          </td>
+                          <td id="id65" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row not-attended">
+                          <td colspan="5" class="text-right">
+                              Suma ECTS do zdobycia w semestrze <span>1</span> za przedmioty obowiązkowe:
+                          </td>
+                          <td>
+                              <span>30</span>
+                          </td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id66">
+                          <td class="align-center not-attended" rowspan="13">
+                              2
+                          </td>
+                          <td class="align-center not-attended" rowspan="1">
+                              <span>Wydział</span> <span title="Wersja programu studiów">(<span>3</span>)</span>
+                          </td>
+                          <td id="id67">
+                              1DW1201
+                          </td>
+                          <td id="id68" class="text-left">
+                              <span><a href="#" ><span>Wychowanie fizyczne 2</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span> <a href="#" class="noprint" id="id69">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="id6a">
+                              C:30
+                          </td>
+                          <td id="id6b">
+                              <span>0</span>
+                          </td>
+                          <td id="id6c" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id6d">
+                          <td class="align-center not-attended" rowspan="12">
+                              <span>Elektrotechnika</span> <span title="Wersja programu studiów">(<span>3</span>)</span>
+                          </td>
+                          <td id="id6e">
+                              1DE1206
+                          </td>
+                          <td id="id6f" class="text-left">
+                              <span><a href="#" ><span>Fizyka 2</span></a></span> &nbsp; <span class="less-significant-text">(<span>Egzamin</span>)</span> <a href="#" class="noprint" id="id70">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="id71">
+                              W:30
+                          </td>
+                          <td id="id72">
+                              <span>3</span>
+                          </td>
+                          <td id="id73" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id74">
+                          <td id="id75">
+                              1DE1211
+                          </td>
+                          <td id="id76" class="text-left">
+                              <span><a href="#" ><span>Języki i metodyka programowania 2</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span>
+                          </td>
+                          <td id="id77">
+                              P:15
+                          </td>
+                          <td id="id78">
+                              <span>1</span>
+                          </td>
+                          <td id="id79" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id7a">
+                          <td id="id7b">
+                              1DE1209
+                          </td>
+                          <td id="id7c" class="text-left">
+                              <span><a href="#" ><span>Matematyka 2</span></a></span> &nbsp; <span class="less-significant-text">(<span>Egzamin</span>)</span> <a href="#" class="noprint" id="id7d">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="id7e">
+                              W:30 C:30
+                          </td>
+                          <td id="id7f">
+                              <span>5</span>
+                          </td>
+                          <td id="id80" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id81">
+                          <td id="id82">
+                              1DE1217
+                          </td>
+                          <td id="id83" class="text-left">
+                              <span><a href="#" ><span>Materiałoznawstwo elektrotechniczne</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span>
+                          </td>
+                          <td id="id84">
+                              W:15 L:15
+                          </td>
+                          <td id="id85">
+                              <span>2</span>
+                          </td>
+                          <td id="id86" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id87">
+                          <td id="id88">
+                              1DE1201
+                          </td>
+                          <td id="id89" class="text-left">
+                              <span><a href="#" ><span>Metody numeryczne</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span> <a href="#" class="noprint" id="id8a">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="id8b">
+                              W:30
+                          </td>
+                          <td id="id8c">
+                              <span>3</span>
+                          </td>
+                          <td id="id8d" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id8e">
+                          <td id="id8f">
+                              1DE1214
+                          </td>
+                          <td id="id90" class="text-left">
+                              <span><a href="#" ><span>Metrologia elektryczna</span></a></span> &nbsp; <span class="less-significant-text">(<span>Egzamin</span>)</span>
+                          </td>
+                          <td id="id91">
+                              W:30
+                          </td>
+                          <td id="id92">
+                              <span>2</span>
+                          </td>
+                          <td id="id93" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id94">
+                          <td id="id95">
+                              1DE1213
+                          </td>
+                          <td id="id96" class="text-left">
+                              <span><a href="#" ><span>Podstawy elektroniki</span></a></span> &nbsp; <span class="less-significant-text">(<span>Egzamin</span>)</span>
+                          </td>
+                          <td id="id97">
+                              W:30
+                          </td>
+                          <td id="id98">
+                              <span>2</span>
+                          </td>
+                          <td id="id99" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id9a">
+                          <td id="id9b">
+                              1DE1308
+                          </td>
+                          <td id="id9c" class="text-left">
+                              <span><a href="#" ><span>Podstawy mechaniki</span></a></span> &nbsp; <span class="less-significant-text">(<span>Egzamin</span>)</span>
+                          </td>
+                          <td id="id9d">
+                              W:30
+                          </td>
+                          <td id="id9e">
+                              <span>2</span>
+                          </td>
+                          <td id="id9f" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="ida0">
+                          <td id="ida1">
+                              1DW1202
+                          </td>
+                          <td id="ida2" class="text-left">
+                              <span><a href="#" ><span>Podstawy zarządzania</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span> <a href="#" class="noprint" id="ida3">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="ida4">
+                              W:30
+                          </td>
+                          <td id="ida5">
+                              <span>2</span>
+                          </td>
+                          <td id="ida6" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="ida7">
+                          <td id="ida8">
+                              1DE1218
+                          </td>
+                          <td id="ida9" class="text-left">
+                              <span><a href="#" ><span>Przemiany energetyczne lab</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span>
+                          </td>
+                          <td id="idaa">
+                              L:15
+                          </td>
+                          <td id="idab">
+                              <span>1</span>
+                          </td>
+                          <td id="idac" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="idad">
+                          <td id="idae">
+                              1DE1212
+                          </td>
+                          <td id="idaf" class="text-left">
+                              <span><a href="#" ><span>Systemy operacyjne i sieci komputerowe</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span>
+                          </td>
+                          <td id="idb0">
+                              W:15 L:15
+                          </td>
+                          <td id="idb1">
+                              <span>2</span>
+                          </td>
+                          <td id="idb2" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="idb3">
+                          <td id="idb4">
+                              1DE1202
+                          </td>
+                          <td id="idb5" class="text-left">
+                              <span><a href="#" ><span>Teoria obwodów 1</span></a></span> &nbsp; <span class="less-significant-text">(<span>Egzamin</span>)</span> <a href="#" class="noprint" id="idb6">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="idb7">
+                              W:30 C:30
+                          </td>
+                          <td id="idb8">
+                              <span>5</span>
+                          </td>
+                          <td id="idb9" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row not-attended">
+                          <td colspan="5" class="text-right">
+                              Suma ECTS do zdobycia w semestrze <span>2</span> za przedmioty obowiązkowe:
+                          </td>
+                          <td>
+                              <span>30</span>
+                          </td>
+                      </tr>
+                      <tr class="quick-filter-row" id="idba">
+                          <td class="align-center not-attended" rowspan="8">
+                              3
+                          </td>
+                          <td class="align-center not-attended" rowspan="8">
+                              <span>Elektrotechnika</span> <span title="Wersja programu studiów">(<span>3</span>)</span>
+                          </td>
+                          <td id="idbb">
+                              1DE1409
+                          </td>
+                          <td id="idbc" class="text-left">
+                              <span><a href="#" ><span>Metrologia elektryczna lab</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span> <a href="#" class="noprint" id="idbd">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="idbe">
+                              L:30
+                          </td>
+                          <td id="idbf">
+                              <span>2</span>
+                          </td>
+                          <td id="idc0" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="idc1">
+                          <td id="idc2">
+                              1DE1204
+                          </td>
+                          <td id="idc3" class="text-left">
+                              <span><a href="#" ><span>Podstawy elektromagnetyzmu</span></a></span> &nbsp; <span class="less-significant-text">(<span>Egzamin</span>)</span> <a href="#" class="noprint" id="idc4">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="idc5">
+                              W:30 C:15
+                          </td>
+                          <td id="idc6">
+                              <span>4</span>
+                          </td>
+                          <td id="idc7" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="idc8">
+                          <td id="idc9">
+                              1DE1313
+                          </td>
+                          <td id="idca" class="text-left">
+                              <span><a href="#" ><span>Podstawy elektroniki lab</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span>
+                          </td>
+                          <td id="idcb">
+                              L:30
+                          </td>
+                          <td id="idcc">
+                              <span>2</span>
+                          </td>
+                          <td id="idcd" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="idce">
+                          <td id="idcf">
+                              1DW1780
+                          </td>
+                          <td id="idd0" class="text-left">
+                              <span><a href="#" ><span>Przedsiębiorczość innowacyjna</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span>
+                          </td>
+                          <td id="idd1">
+                              W:15 P:15
+                          </td>
+                          <td id="idd2">
+                              <span>2</span>
+                          </td>
+                          <td id="idd3" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="idd4">
+                          <td id="idd5">
+                              1DE1302
+                          </td>
+                          <td id="idd6" class="text-left">
+                              <span><a href="#" ><span>Teoria obwodów 2</span></a></span> &nbsp; <span class="less-significant-text">(<span>Egzamin</span>)</span> <a href="#" class="noprint" id="idd7">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="idd8">
+                              W:30 L:30 C:30
+                          </td>
+                          <td id="idd9">
+                              <span>8</span>
+                          </td>
+                          <td id="idda" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="iddb">
+                          <td id="iddc">
+                              1DE1301
+                          </td>
+                          <td id="iddd" class="text-left">
+                              <span><a href="#" ><span>Teoria sterowania</span></a></span> &nbsp; <span class="less-significant-text">(<span>Egzamin</span>)</span> <a href="#" class="noprint" id="idde">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="iddf">
+                              W:30 C:15
+                          </td>
+                          <td id="ide0">
+                              <span>4</span>
+                          </td>
+                          <td id="ide1" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="ide2">
+                          <td id="ide3">
+                              1DE1310
+                          </td>
+                          <td id="ide4" class="text-left">
+                              <span><a href="#" ><span>Układy energoelektroniczne</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span>
+                          </td>
+                          <td id="ide5">
+                              W:15 L:15
+                          </td>
+                          <td id="ide6">
+                              <span>2</span>
+                          </td>
+                          <td id="ide7" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="ide8">
+                          <td id="ide9">
+                              1DE1305
+                          </td>
+                          <td id="idea" class="text-left">
+                              <span><a href="#" ><span>Układy techniki cyfrowej</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span> <a href="#" class="noprint" id="ideb">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="idec">
+                              W:15 L:15
+                          </td>
+                          <td id="ided">
+                              <span>2</span>
+                          </td>
+                          <td id="idee" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row not-attended">
+                          <td colspan="5" class="text-right">
+                              Suma ECTS do zdobycia w semestrze <span>3</span> za przedmioty obowiązkowe:
+                          </td>
+                          <td>
+                              <span>26</span>
+                          </td>
+                      </tr>
+                      <tr class="quick-filter-row" id="idef">
+                          <td class="align-center not-attended" rowspan="12">
+                              4
+                          </td>
+                          <td class="align-center not-attended" rowspan="12">
+                              <span>Elektrotechnika</span> <span title="Wersja programu studiów">(<span>3</span>)</span>
+                          </td>
+                          <td id="idf0">
+                              1DE1408
+                          </td>
+                          <td id="idf1" class="text-left">
+                              <span><a href="#" ><span>Bezpieczeństwo użytkowania urządzeń elektrycznych</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span> <a href="#" class="noprint" id="idf2">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="idf3">
+                              W:30
+                          </td>
+                          <td id="idf4">
+                              <span>2</span>
+                          </td>
+                          <td id="idf5" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="idf6">
+                          <td id="idf7">
+                              1DE1401
+                          </td>
+                          <td id="idf8" class="text-left">
+                              <span><a href="#" ><span>Komputerowa analiza i projektowanie obwodów elektrycznych</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span> <a href="#" class="noprint" id="idf9">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="idfa">
+                              L:30
+                          </td>
+                          <td id="idfb">
+                              <span>2</span>
+                          </td>
+                          <td id="idfc" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="idfd">
+                          <td id="idfe">
+                              1DE1414
+                          </td>
+                          <td id="idff" class="text-left">
+                              <span><a href="#" ><span>Maszyny elektryczne</span></a></span> &nbsp; <span class="less-significant-text">(<span>Egzamin</span>)</span>
+                          </td>
+                          <td id="id100">
+                              W:30
+                          </td>
+                          <td id="id101">
+                              <span>3</span>
+                          </td>
+                          <td id="id102" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id103">
+                          <td id="id104">
+                              1DE1412
+                          </td>
+                          <td id="id105" class="text-left">
+                              <span><a href="#" ><span>Metrologia wielkości nieelektrycznych</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span>
+                          </td>
+                          <td id="id106">
+                              W:15 L:15
+                          </td>
+                          <td id="id107">
+                              <span>2</span>
+                          </td>
+                          <td id="id108" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id109">
+                          <td id="id10a">
+                              1DE1413
+                          </td>
+                          <td id="id10b" class="text-left">
+                              <span><a href="#" ><span>Napęd elektryczny</span></a></span> &nbsp; <span class="less-significant-text">(<span>Egzamin</span>)</span>
+                          </td>
+                          <td id="id10c">
+                              W:30
+                          </td>
+                          <td id="id10d">
+                              <span>2</span>
+                          </td>
+                          <td id="id10e" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id10f">
+                          <td id="id110">
+                              1DE1415
+                          </td>
+                          <td id="id111" class="text-left">
+                              <span><a href="#" ><span>Podstawy elektroenergetyki</span></a></span> &nbsp; <span class="less-significant-text">(<span>Egzamin</span>)</span>
+                          </td>
+                          <td id="id112">
+                              W:30
+                          </td>
+                          <td id="id113">
+                              <span>3</span>
+                          </td>
+                          <td id="id114" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id115">
+                          <td id="id116">
+                              1DE1304
+                          </td>
+                          <td id="id117" class="text-left">
+                              <span><a href="#" ><span>Podstawy elektromagnetyzmu lab</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span> <a href="#" class="noprint" id="id118">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="id119">
+                              L:15
+                          </td>
+                          <td id="id11a">
+                              <span>2</span>
+                          </td>
+                          <td id="id11b" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id11c">
+                          <td id="id11d">
+                              1DE1505
+                          </td>
+                          <td id="id11e" class="text-left">
+                              <span><a href="#" ><span>Podstawy elektrotermii</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span> <a href="#" class="noprint" id="id11f">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="id120">
+                              W:15
+                          </td>
+                          <td id="id121">
+                              <span>1</span>
+                          </td>
+                          <td id="id122" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id123">
+                          <td id="id124">
+                              1DE1410
+                          </td>
+                          <td id="id125" class="text-left">
+                              <span><a href="#" ><span>Podstawy techniki mikroprocesorowej</span></a></span> &nbsp; <span class="less-significant-text">(<span>Egzamin</span>)</span> <a href="#" class="noprint" id="id126">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="id127">
+                              W:30
+                          </td>
+                          <td id="id128">
+                              <span>2</span>
+                          </td>
+                          <td id="id129" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id12a">
+                          <td id="id12b">
+                              1DE1416
+                          </td>
+                          <td id="id12c" class="text-left">
+                              <span><a href="#" ><span>Programowalne układy automatyki</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span>
+                          </td>
+                          <td id="id12d">
+                              W:15
+                          </td>
+                          <td id="id12e">
+                              <span>1</span>
+                          </td>
+                          <td id="id12f" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id130">
+                          <td id="id131">
+                              1DE1417
+                          </td>
+                          <td id="id132" class="text-left">
+                              <span><a href="#" ><span>Technika wysokich napięć</span></a></span> &nbsp; <span class="less-significant-text">(<span>Egzamin</span>)</span>
+                          </td>
+                          <td id="id133">
+                              W:30
+                          </td>
+                          <td id="id134">
+                              <span>3</span>
+                          </td>
+                          <td id="id135" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id136">
+                          <td id="id137">
+                              1DE1411
+                          </td>
+                          <td id="id138" class="text-left">
+                              <span><a href="#" ><span>Teoria sterowania lab</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span> <a href="#" class="noprint" id="id139">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="id13a">
+                              L:30
+                          </td>
+                          <td id="id13b">
+                              <span>3</span>
+                          </td>
+                          <td id="id13c" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row not-attended">
+                          <td colspan="5" class="text-right">
+                              Suma ECTS do zdobycia w semestrze <span>4</span> za przedmioty obowiązkowe:
+                          </td>
+                          <td>
+                              <span>26</span>
+                          </td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id13d">
+                          <td class="align-center not-attended" rowspan="13">
+                              5
+                          </td>
+                          <td class="align-center not-attended" rowspan="13">
+                              <span>Elektrotechnika</span> <span title="Wersja programu studiów">(<span>3</span>)</span>
+                          </td>
+                          <td id="id13e">
+                              1DE1501
+                          </td>
+                          <td id="id13f" class="text-left">
+                              <span><a href="#" ><span>Aparaty elektryczne</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span> <a href="#" class="noprint" id="id140">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="id141">
+                              W:15 L:15
+                          </td>
+                          <td id="id142">
+                              <span>2</span>
+                          </td>
+                          <td id="id143" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id144">
+                          <td id="id145">
+                              1DE1512
+                          </td>
+                          <td id="id146" class="text-left">
+                              <span><a href="#" ><span>Cyfrowe przetwarzanie sygnałów</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span> <a href="#" class="noprint" id="id147">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="id148">
+                              W:15 L:15
+                          </td>
+                          <td id="id149">
+                              <span>3</span>
+                          </td>
+                          <td id="id14a" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id14b">
+                          <td id="id14c">
+                              1DE1515
+                          </td>
+                          <td id="id14d" class="text-left">
+                              <span><a href="#" ><span>Instalacje elektryczne</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span>
+                          </td>
+                          <td id="id14e">
+                              W:15 P:15
+                          </td>
+                          <td id="id14f">
+                              <span>2</span>
+                          </td>
+                          <td id="id150" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id151">
+                          <td id="id152">
+                              1DE1511
+                          </td>
+                          <td id="id153" class="text-left">
+                              <span><a href="#" ><span>Kompatybilność elektromagnetyczna</span></a></span> &nbsp; <span class="less-significant-text">(<span>Egzamin</span>)</span> <a href="#" class="noprint" id="id154">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="id155">
+                              W:15 L:15
+                          </td>
+                          <td id="id156">
+                              <span>3</span>
+                          </td>
+                          <td id="id157" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id158">
+                          <td id="id159">
+                              1DE1509
+                          </td>
+                          <td id="id15a" class="text-left">
+                              <span><a href="#" ><span>Maszyny elektryczne lab</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span>
+                          </td>
+                          <td id="id15b">
+                              L:45
+                          </td>
+                          <td id="id15c">
+                              <span>3</span>
+                          </td>
+                          <td id="id15d" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id15e">
+                          <td id="id15f">
+                              1DE1513
+                          </td>
+                          <td id="id160" class="text-left">
+                              <span><a href="#" ><span>Napęd elektryczny - laboratorium</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span>
+                          </td>
+                          <td id="id161">
+                              L:15
+                          </td>
+                          <td id="id162">
+                              <span>1</span>
+                          </td>
+                          <td id="id163" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id164">
+                          <td id="id165">
+                              1DE1502
+                          </td>
+                          <td id="id166" class="text-left">
+                              <span><a href="#" ><span>Podstawy elektroenergetyki lab</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span> <a href="#" class="noprint" id="id167">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="id168">
+                              L:30
+                          </td>
+                          <td id="id169">
+                              <span>2</span>
+                          </td>
+                          <td id="id16a" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id16b">
+                          <td id="id16c">
+                              1DE1517
+                          </td>
+                          <td id="id16d" class="text-left">
+                              <span><a href="#" ><span>Podstawy elektromechatroniki pojazdów samochodowych</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span>
+                          </td>
+                          <td id="id16e">
+                              W:15
+                          </td>
+                          <td id="id16f">
+                              <span>1</span>
+                          </td>
+                          <td id="id170" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id171">
+                          <td id="id172">
+                              1DE1520
+                          </td>
+                          <td id="id173" class="text-left">
+                              <span><a href="#" ><span>Podstawy techniki mikroprocesorowej lab</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span>
+                          </td>
+                          <td id="id174">
+                              L:30
+                          </td>
+                          <td id="id175">
+                              <span>2</span>
+                          </td>
+                          <td id="id176" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id177">
+                          <td id="id178">
+                              1DE1506
+                          </td>
+                          <td id="id179" class="text-left">
+                              <span><a href="#" ><span>Podstawy techniki świetlnej</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span> <a href="#" class="noprint" id="id17a">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="id17b">
+                              W:30
+                          </td>
+                          <td id="id17c">
+                              <span>2</span>
+                          </td>
+                          <td id="id17d" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id17e">
+                          <td id="id17f">
+                              1DE1516
+                          </td>
+                          <td id="id180" class="text-left">
+                              <span><a href="#" ><span>Programowalne układy automatyki - laboratorium</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span>
+                          </td>
+                          <td id="id181">
+                              L:15
+                          </td>
+                          <td id="id182">
+                              <span>1</span>
+                          </td>
+                          <td id="id183" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id184">
+                          <td id="id185">
+                              1DE1504
+                          </td>
+                          <td id="id186" class="text-left">
+                              <span><a href="#" ><span>Technika wysokich napięć lab</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span> <a href="#" class="noprint" id="id187">(Pokaż zamienniki)</a>
+                          </td>
+                          <td id="id188">
+                              L:30
+                          </td>
+                          <td id="id189">
+                              <span>2</span>
+                          </td>
+                          <td id="id18a" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id18b">
+                          <td id="id18c">
+                              1DE1518
+                          </td>
+                          <td id="id18d" class="text-left">
+                              <span><a href="#" ><span>Trakcja elektryczna</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span>
+                          </td>
+                          <td id="id18e">
+                              W:15 L:15
+                          </td>
+                          <td id="id18f">
+                              <span>2</span>
+                          </td>
+                          <td id="id190" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row not-attended">
+                          <td colspan="5" class="text-right">
+                              Suma ECTS do zdobycia w semestrze <span>5</span> za przedmioty obowiązkowe:
+                          </td>
+                          <td>
+                              <span>26</span>
+                          </td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id191">
+                          <td class="align-center not-attended" rowspan="2">
+                              7
+                          </td>
+                          <td class="align-center not-attended" rowspan="2">
+                              <span>Wydział</span> <span title="Wersja programu studiów">(<span>3</span>)</span>
+                          </td>
+                          <td id="id192">
+                              1DW1702
+                          </td>
+                          <td id="id193" class="text-left">
+                              <span><a href="#" ><span>Praca dyplomowa inżynierska</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span>
+                          </td>
+                          <td id="id194"></td>
+                          <td id="id195">
+                              <span>15</span>
+                          </td>
+                          <td id="id196" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row" id="id197">
+                          <td id="id198">
+                              1DW1701
+                          </td>
+                          <td id="id199" class="text-left">
+                              <span><a href="#" ><span>Seminarium dyplomowe inżynierskie</span></a></span> &nbsp; <span class="less-significant-text">(<span>Zaliczenie</span>)</span>
+                          </td>
+                          <td id="id19a">
+                              S:30
+                          </td>
+                          <td id="id19b">
+                              <span>3</span>
+                          </td>
+                          <td id="id19c" style="display:none"></td>
+                      </tr>
+                      <tr class="quick-filter-row not-attended">
+                          <td colspan="5" class="text-right">
+                              Suma ECTS do zdobycia w semestrze <span>7</span> za przedmioty obowiązkowe:
+                          </td>
+                          <td>
+                              <span>18</span>
+                          </td>
+                      </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="panel-footer text-center">
+              Portal Dydaktyczny 2010-2014 (wersja: <a href="history.html"><span>2.0.0</span></a>) | Icons by <a href="http://glyphicons.com/">Glyphicons</a><br/>
+              Uwagi oraz pytania: : <a href="mailto:isod.wsparcie@iem.pw.edu.pl">isod.wsparcie@iem.pw.edu.pl</a>.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/libs/jquery-1.11.0.min.js"></script>
+    <script src="bootstrap-3.1.1/js/bootstrap.min.js"></script>
+
+    <!-- Isod js -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
