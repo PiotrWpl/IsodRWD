@@ -11,7 +11,7 @@
 }
 .logo-big {
   letter-spacing: 2px;
-  text-shadow: 1px 1px 2px #333;
+  text-shadow: 1px 1px 2px #726F6F;
 }
 a {
   /*color: #333;*/
@@ -100,8 +100,16 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > a 
   color: #fff;
 }
 .navbar-default .navbar-nav>li>a {
-  color: #000;
+  color: #333;
   text-shadow: none;
+}
+.dropdown-menu .divider {
+  background-color: #158BBD;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #333;
+  }
 }
 .panel-default>.panel-heading {
   background-image: none;
