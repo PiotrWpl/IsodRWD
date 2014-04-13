@@ -36,4 +36,11 @@ Testy:
 - iPhone
 - iOS 6 i 7
 
+Tabele:
+- http://css-tricks.com/responsive-data-table-roundup/
+
 DOKUMENTACJA
+
+URZĄDZENIA:
+NOTE 10 (GT-N8000) 4.1.2 przeglądarka internet
+Nexus 7 2013, 4.4.2 chrome
