@@ -248,3 +248,14 @@ background-image: -webkit-gradient(
   background-color: #F5A9A9;
 }
 
+dl.dl-horizontal dd {
+  margin-bottom: 10px;
+}
+dl.dl-horizontal:last-child {
+  margin-bottom: 0px;
+}
+@media (min-width: 768px) {
+  dl.dl-horizontal dd {
+    margin-bottom: 0;
+  }
+}
