@@ -1,7 +1,7 @@
 .navbar-brand > div {
   display: inline-block;
   text-indent: 0;
-  margin-top: -17px;
+  margin-top: -14px;
   line-height: 16px;
 }
 .logo-small {
@@ -11,6 +11,7 @@
 }
 .logo-big {
   letter-spacing: 2px;
+  text-shadow: 1px 1px 2px #333;
 }
 a {
   /*color: #333;*/
@@ -100,6 +101,7 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > a 
 }
 .navbar-default .navbar-nav>li>a {
   color: #000;
+  text-shadow: none;
 }
 .panel-default>.panel-heading {
   background-image: none;
