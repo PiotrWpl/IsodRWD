@@ -44,3 +44,11 @@ DOKUMENTACJA
 URZĄDZENIA:
 NOTE 10 (GT-N8000) 4.1.2 przeglądarka internet
 Nexus 7 2013, 4.4.2 chrome
+
+PO SPOTKANIU:
+- popracować na tabelami
+- inny typ sylabusa (taki z tabelami)
+- co z wyszukiwaniem (nie wiemy po czym filtrujemy)
+- tabele w android 2.3
+- stronicowanie na głównej stronie
+- jakieś zdjęcia?
