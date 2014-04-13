@@ -130,7 +130,11 @@ background-image: -webkit-gradient(
 }
 .lang-ico {
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left center;
+}
+.visible-xs.lang-ico {
+  background-position: 15px center;
+  text-indent: 25px;
 }
 .lang-ico.lang-en {
   background-image: url('../assets/en.png');
