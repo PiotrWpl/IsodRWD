@@ -100,8 +100,13 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > a 
   color: #fff;
 }
 .navbar-default .navbar-nav>li>a {
-  color: #333;
+  color: #fff;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue",Helvetica,Arial,sans-serif;
   text-shadow: none;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+  color: #d6d6d6;
 }
 .dropdown-menu .divider {
   background-color: #158BBD;
