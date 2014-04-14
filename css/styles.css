@@ -113,7 +113,11 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > a 
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-    color: #333;
+    color: #fff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: #d6d6d6;
   }
 }
 .panel-default>.panel-heading {
