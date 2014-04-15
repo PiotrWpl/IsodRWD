@@ -52,3 +52,5 @@ PO SPOTKANIU:
 - tabele w android 2.3
 - stronicowanie na głównej stronie
 - jakieś zdjęcia?
+- program studiów
+- propozycje tematów
