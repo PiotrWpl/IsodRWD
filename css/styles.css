@@ -283,3 +283,22 @@ dl.dl-horizontal:last-child {
 .table>thead>tr>th {
   vertical-align: middle;
 }
+
+.alert-dismissable.well .close {
+  top: -7px;
+  right: -7px;
+}
+.search-info {
+  margin-top: 10px;
+}
+.search-info .dl-horizontal dt {
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  .search-info .dl-horizontal dt {
+    width: 260px;
+  }
+  .search-info .dl-horizontal dd {
+    margin-left: 280px;
+  }
+}
