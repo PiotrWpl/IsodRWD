@@ -24,7 +24,7 @@ Extra:
 - szlify szczegółów wykładowcy
 - szlify programu studiów
 - szlify ogólne
-- alerty o braku wypełnionych danych w formularzu
+- alerty o braku wypełnionych danych w formularzu http://getbootstrap.com/components/#alerts-examples
 
 Testy:
 - android tablet
@@ -45,9 +45,9 @@ Nexus 7 2013, 4.4.2 chrome
 
 PO SPOTKANIU:
 - popracować na tabelami
-- inny typ sylabusa (taki z tabelami)
+- ~~inny typ sylabusa (taki z tabelami)~~ (już wiemy jak prezentować tabele)
 - tabele w android 2.3 https://github.com/filamentgroup/Overthrow
-- stronicowanie na głównej stronie
+- ~~stronicowanie na głównej stronie~~ (za mało treści)
 - jakieś zdjęcia?
 - program studiów
 - propozycje tematów
