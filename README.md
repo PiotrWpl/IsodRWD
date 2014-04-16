@@ -21,7 +21,7 @@ _Celem projektu jest modernizacja istniejącego interfejsu tak aby poprawnie wy�
 - ~~Inny typ sylabusa (taki z tabelami)~~ (__już wiemy jak prezentować tabele to tylko prototyp__)
 - Tabele w android 2.3:
 
-   https://github.com/filamentgroup/Overthrow
+   https://github.com/filamentgroup/Overthrow   .
    http://css-tricks.com/responsive-data-table-roundup/
 
 
@@ -43,6 +43,7 @@ _Celem projektu jest modernizacja istniejącego interfejsu tak aby poprawnie wy�
 - Windows Phone 8.0
 - Windows Phone 8.1
 - Samsung Slate (Windows 8)
+- FireFoxOS
 
 
 ## Urządzenia do testów:
