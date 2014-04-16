@@ -12,8 +12,8 @@ _Celem projektu jest modernizacja istniejącego interfejsu tak aby poprawnie wy�
 #### Do zrobienia:
 - Id i typy inputów (__czy jest sens poprawiać? to tylko prototyp__)
 - ~~Reset formularza~~ (zły pomysł: http://www.nngroup.com/articles/reset-and-cancel-buttons/ http://www.netmechanic.com/news/vol9/use_no1.shtml zgadzam się z tym, na małych ekranach jest jeszcze większa szansa, że w niego trafimy)
-- Alerty o braku wypełnionych danych w formularzu http://getbootstrap.com/components/#alerts-examples
-- *DOKUMENTACJA*
+- ~~Alerty o braku wypełnionych danych w formularzu~~ (przykład w program.html)
+- **DOKUMENTACJA**
 
 
 #### Po spotkaniu (4 kwietnia):
@@ -53,3 +53,9 @@ _Celem projektu jest modernizacja istniejącego interfejsu tak aby poprawnie wy�
 - Moto G, 4.4.2, Chrome
 - HTC Desire Z, 2.3.7, przeglądarka Internet
 - MacBook Pro 13'', OSX 10.9.2 (Chrome, Firefox, Safari)
+- iPhone 5
+- iPhone 4
+- iPad Mini
+- iPad 2
+- iPad 4
+- ???
