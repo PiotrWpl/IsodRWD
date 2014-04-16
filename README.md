@@ -10,7 +10,7 @@ _Celem projektu jest modernizacja istniejącego interfejsu tak aby poprawnie wy�
 
 
 #### Do zrobienia:
-- Id i typy inputów (__czy jest sens poprawiać? to tylko prototyp__)
+- ~~Id i typy inputów~~  (__czy jest sens poprawiać? to tylko prototyp__)
 - ~~Reset formularza~~ (zły pomysł: http://www.nngroup.com/articles/reset-and-cancel-buttons/ http://www.netmechanic.com/news/vol9/use_no1.shtml zgadzam się z tym, na małych ekranach jest jeszcze większa szansa, że w niego trafimy)
 - ~~Alerty o braku wypełnionych danych w formularzu~~ (przykład w program.html)
 - **DOKUMENTACJA**
@@ -24,7 +24,7 @@ _Celem projektu jest modernizacja istniejącego interfejsu tak aby poprawnie wy�
 - ~~Pokazać po czym filtrujemy~~
 - ~~Szlify w szczegółach wykładowcy~~
 - Popracować nad tabelami (*popłynąć*)
-- ~~Inny typ sylabusa (taki z tabelami)~~ (__już wiemy jak prezentować tabele to tylko prototyp__)
+- ~~Inny typ sylabusa (taki z tabelami)~~
 - Tabele w android 2.3 (https://github.com/filamentgroup/Overthrow i http://css-tricks.com/responsive-data-table-roundup/)
 - ~~Stronicowanie na głównej stronie~~ (za mało treści)
 - Jakieś zdjęcia dla urozmaicenia strony?
