@@ -62,4 +62,7 @@
       $parent.toggleClass('show-togglable-details');
     });
   }
+
+  $('table tr').tooltip();
+
 })();

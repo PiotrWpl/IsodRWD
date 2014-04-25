@@ -30,6 +30,7 @@ _Celem projektu jest modernizacja istniejącego interfejsu tak aby poprawnie wy�
 - Tabele w android 2.3 (https://github.com/filamentgroup/Overthrow i http://css-tricks.com/responsive-data-table-roundup/)
 - Program studiów (*straszne tabele*, *na średnim ekranie punkty ECTS fatalne*)
 - Propozycje tematów (*kolumna szczegółów do ulepszenia*)
+- -- *Czy potrzebna jest kolumna aktualizacja?*
 - Obronione prace (*przerobić listę na kolumny w tabeli*)
 
 
