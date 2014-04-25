@@ -30,11 +30,11 @@ _Celem projektu jest modernizacja istniejącego interfejsu tak aby poprawnie wy�
 - ~~Jakieś zdjęcia dla urozmaicenia strony?~~ (__ze względu na ilość _suchych faktów_ oraz charakter informacyjny, a nie reprezentacyjny strony, chyba nie ma takiej potrzeby__)
 - ~~Popracować nad tabelami~~ (trochę podszlifowane style)
 - Tabele w android 2.3 (https://github.com/filamentgroup/Overthrow i http://css-tricks.com/responsive-data-table-roundup/)
-- Program studiów (*straszne tabele*, *na średnim ekranie punkty ECTS fatalne*)
+- ~~Program studiów (*straszne tabele*, *na średnim ekranie punkty ECTS fatalne*)~~
 - ~~Propozycje tematów (*kolumna szczegółów do ulepszenia*)~~
 - -- *Czy potrzebna jest kolumna aktualizacja?*
 - -- *Czy mogą być kolory i tooltip zamiast kolumny statusu?*
-- Obronione prace (*przerobić listę na kolumny w tabeli*)
+- ~~Obronione prace (*przerobić listę na kolumny w tabeli*)~~ NIE - (__taka postać jest czytelna i dobrze gospodaruje przestrzeń__)
 
 
 #### Testy:
