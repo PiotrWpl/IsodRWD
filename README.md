@@ -13,8 +13,8 @@ _Celem projektu jest modernizacja istniejącego interfejsu tak aby poprawnie wy�
 - ~~Id i typy inputów~~  (__czy jest sens poprawiać? to tylko prototyp__)
 - ~~Reset formularza~~ (zły pomysł: http://www.nngroup.com/articles/reset-and-cancel-buttons/ http://www.netmechanic.com/news/vol9/use_no1.shtml zgadzam się z tym, na małych ekranach jest jeszcze większa szansa, że w niego trafimy)
 - ~~Alerty o braku wypełnionych danych w formularzu~~ (przykład w program.html)
-- porządki w js
-- porządki w css
+- ~~porządki w js~~
+- ~~porządki w css~~
 - **DOKUMENTACJA**
 
 
