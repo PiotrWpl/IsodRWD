@@ -29,7 +29,10 @@ _Celem projektu jest modernizacja istniejącego interfejsu tak aby poprawnie wy�
 - ~~Stronicowanie na głównej stronie~~ (__za mało treści__)
 - ~~Jakieś zdjęcia dla urozmaicenia strony?~~ (__ze względu na ilość _suchych faktów_ oraz charakter informacyjny, a nie reprezentacyjny strony, chyba nie ma takiej potrzeby__)
 - ~~Popracować nad tabelami~~ (trochę podszlifowane style)
-- Tabele w android 2.3 (https://github.com/filamentgroup/Overthrow i http://css-tricks.com/responsive-data-table-roundup/)
+- Tabele w android 2.3:
+- -- http://css-tricks.com/responsive-data-table-roundup/
+- -- https://github.com/filamentgroup/Overthrow
+- -- http://barrow.io/overflow-scrolling
 - ~~Program studiów (*straszne tabele*, *na średnim ekranie punkty ECTS fatalne*)~~
 - ~~Propozycje tematów (*kolumna szczegółów do ulepszenia*)~~
 - -- *Czy potrzebna jest kolumna aktualizacja?*
