@@ -6,6 +6,7 @@ _Celem projektu jest modernizacja istniejącego interfejsu tak aby poprawnie wy�
 - http://www.ee.pw.edu.pl/
 - https://isod.ee.pw.edu.pl/isod-portal/aktualnosci
 - http://getbootstrap.com/
+- https://github.com/filamentgroup/Overthrow
 - http://piotrwpl.github.io/IsodRWD/
 
 
@@ -29,7 +30,7 @@ _Celem projektu jest modernizacja istniejącego interfejsu tak aby poprawnie wy�
 - ~~Stronicowanie na głównej stronie~~ (__za mało treści__)
 - ~~Jakieś zdjęcia dla urozmaicenia strony?~~ (__ze względu na ilość _suchych faktów_ oraz charakter informacyjny, a nie reprezentacyjny strony, chyba nie ma takiej potrzeby__)
 - ~~Popracować nad tabelami~~ (trochę podszlifowane style)
-- Tabele w android 2.3:
+- ~~Tabele w android 2.3:~~
 - -- http://css-tricks.com/responsive-data-table-roundup/
 - -- https://github.com/filamentgroup/Overthrow
 - -- http://barrow.io/overflow-scrolling
