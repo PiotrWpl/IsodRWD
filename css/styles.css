@@ -11,11 +11,8 @@ h4, .h4 {
 ol {
   -webkit-padding-start: 20px;
 }
-ol li {
-  white-space: nowrap;
-  list-style-position: inside;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.files-list li {
+  word-wrap: break-word;
 }
 body {
   padding-top: 50px;
@@ -61,7 +58,7 @@ dl.dl-horizontal:last-child {
   margin-top: 10px;
 }
 .search-info .dl-horizontal dt {
-  font-weight: bold;
+  font-weight: bold !important;
 }
 .well {
   border-color: #E9E9E9;
