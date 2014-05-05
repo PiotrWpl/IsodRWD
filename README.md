@@ -54,6 +54,8 @@ _Celem projektu jest modernizacja istniejącego interfejsu tak aby poprawnie wy�
 - Windows Phone 8.1
 - Samsung Slate (Windows 8)
 - FireFoxOS
+- OSX
+- Windows 7
 
 
 #### Urządzenia do testów:
@@ -62,6 +64,7 @@ _Celem projektu jest modernizacja istniejącego interfejsu tak aby poprawnie wy�
 - Moto G, 4.4.2, Chrome
 - HTC Desire Z, 2.3.7, przeglądarka Internet
 - MacBook Pro 13'', OSX 10.9.2 (Chrome, Firefox, Safari)
+- Laptop z Windows 7, full HD, (Chrome, Firefox, IE 11)
 - iPhone 5
 - iPhone 4
 - iPad Mini
