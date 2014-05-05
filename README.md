@@ -9,6 +9,8 @@ _Celem projektu jest modernizacja istniejącego interfejsu tak aby poprawnie wy�
 - https://github.com/filamentgroup/Overthrow
 - http://piotrwpl.github.io/IsodRWD/
 
+- Część pisemna: https://docs.google.com/document/d/1Pb5D6IPtacqW9vt2cGi4vLKWKCG-mbkyUZCfMHBKp8o/edit?usp=sharing
+
 
 #### Do zrobienia:
 - ~~Id i typy inputów~~  (__czy jest sens poprawiać? to tylko prototyp__)
