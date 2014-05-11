@@ -58,7 +58,9 @@ dl.dl-horizontal:last-child {
   margin-top: 10px;
 }
 .search-info .dl-horizontal dt {
-  font-weight: bold !important;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
 }
 .well {
   border-color: #E9E9E9;

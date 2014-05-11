@@ -44,7 +44,7 @@ _Celem projektu jest modernizacja istniejącego interfejsu tak aby poprawnie wy�
 
 #### Uwagi (6 maja):
 - Proszę aby lista ogłoszeń i komunikatów była w innej tonacji kolorystycznej i innym układzie graficznym. Przykład bardziej czytelnego układu: https://drive.google.com/file/d/0B2BOI1F_asEbUHJOYkM3OXVucVU/edit?usp=sharing
-- Prośba o zdecydowanie bardziej stonowane wyeksponowanie filtrów (to nie filtry sa tutaj najważniejsze, tylko nazwy sylabusów)
+- ~~Prośba o zdecydowanie bardziej stonowane wyeksponowanie filtrów (to nie filtry sa tutaj najważniejsze, tylko nazwy sylabusów)~~
 - ~~Proszę aby na stronie startowej oprócz ogłoszeń i informacji w pasku z prawej strony znajdowały się widoczne od razu odnośniki do wszystkich stron, które są dostępne z menu górnego. Na stronie startowej powinien być od razu dostęp i przegląd struktury całego serwisu, bez konieczności rozwijania żadnego menu. To może być np. dodatkowy panel boczny z prawej strony. Proszę to rozważyć.~~
 
 #### Testy:
