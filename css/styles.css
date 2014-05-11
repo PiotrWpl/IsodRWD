@@ -62,6 +62,11 @@ dl.dl-horizontal:last-child {
   font-size: 12px;
   line-height: 20px;
 }
+.news-announcements.dl-horizontal dt {
+  color: #7A7A7A;
+  font-size: 12px;
+  line-height: 20px;
+}
 .well {
   border-color: #E9E9E9;
   background-color: #FCFCFC;
@@ -283,6 +288,16 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > a 
   }
   dl.dl-horizontal dd {
     margin-bottom: 0;
+  }
+  .news-announcements.dl-horizontal dt {
+    text-align: right;
+    width: 65px;
+  }
+  .news-announcements.dl-horizontal dd {
+    margin-left: 80px;
+  }
+  dl.news-announcements.dl-horizontal dd {
+    margin-bottom: 15px;
   }
 }
 
