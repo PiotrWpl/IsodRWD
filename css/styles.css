@@ -22,6 +22,16 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
   font-weight: bold;
   font-weight: 500;
 }
+footer {
+  padding: 20px;
+  background-color: #2e7496;
+  color: #fff;
+  box-shadow: 0 -1px 3px #333;
+}
+footer a,
+footer a:hover {
+  color: #fff;
+}
 
 
 /* Helper classes */
