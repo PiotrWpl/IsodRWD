@@ -31,6 +31,12 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 .table>thead>tr>th {
   vertical-align: middle;
 }
+.plan-matrix.table .semester {
+  background: #A2A2A2;
+  color: #FFF;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
 .content.container {
   padding-top: 20px;
 }
