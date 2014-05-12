@@ -29,7 +29,7 @@ _Celem projektu jest modernizacja istniejącego interfejsu tak aby poprawnie wy�
 - ~~Pokazać po czym filtrujemy~~
 - ~~Szlify w szczegółach wykładowcy~~
 - ~~Inny typ sylabusa (taki z tabelami)~~
-- ~~Stronicowanie na głównej stronie~~ (__za mało treści__)
+- ~~Stronicowanie na głównej stronie~~
 - ~~Jakieś zdjęcia dla urozmaicenia strony?~~ (__ze względu na ilość _suchych faktów_ oraz charakter informacyjny, a nie reprezentacyjny strony, chyba nie ma takiej potrzeby__)
 - ~~Popracować nad tabelami~~ (trochę podszlifowane style)
 - ~~Tabele w android 2.3:~~
