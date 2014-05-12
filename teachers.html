@@ -95,54 +95,84 @@
         <div class="col-xs-12">
           <div class="panel panel-default">
             <div class="panel-body">
+
+               <div class="modal fade search-teachers overthrow" tabindex="-1" role="dialog" aria-labelledby="myExportPanelLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title" id="myExportPanelLabel">Znajdź wykładowcę</h4>
+                    </div>
+                    <div class="modal-body">
+                      <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                          <label for="inputEmail3" class="col-sm-6 control-label">Imię i nazwisko:</label>
+                          <div class="col-sm-6">
+                            <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Imię i nazwisko">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputEmail3" class="col-sm-6 control-label">Tytuł:</label>
+                          <div class="col-sm-6">
+                            <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Tytuł">
+                          </div>
+                        </div>
+                         <div class="form-group">
+                          <label for="inputEmail3" class="col-sm-6 control-label">Jednostka organizacyjna:</label>
+                          <div class="col-sm-6">
+                            <select class="form-control input-sm">
+                              <option value="">obojętne</option>
+                              <option value="0">CH</option>
+                              <option value="1">EE</option>
+                              <option value="2">ICHIP</option>
+                              <option value="3">IE</option>
+                              <option value="4">IETiSIP</option>
+                              <option value="5">IF</option>
+                              <option value="6">IL</option>
+                              <option value="7">IME</option>
+                              <option value="8">INNE</option>
+                              <option value="9">ISEP</option>
+                              <option value="10">KWNiAE</option>
+                              <option value="11">MECHTR</option>
+                              <option value="12">MECHTR-AiR</option>
+                              <option value="13">MEiL</option>
+                              <option value="14">MiNI</option>
+                              <option value="15">OKNO</option>
+                              <option value="16">OKNO-EE</option>
+                              <option value="17">PW</option>
+                              <option value="18">SJO</option>
+                              <option value="19">SWFiS</option>
+                              <option value="20">WAiNS</option>
+                              <option value="21">WEiTI</option>
+                              <option value="22">WEiTI-II</option>
+                              <option value="23">WEiTI-IMIO</option>
+                              <option value="24">WEiTI-ISE</option>
+                              <option value="25">WIM</option>
+                              <option value="26">WIP</option>
+                              <option value="27">WIŚ</option>
+                              <option value="28">WZ</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-sm-offset-6 col-sm-6">
+                            <button type="submit" class="btn btn-success">Szukaj</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <div class="well well-sm">
                 <form class="form-inline" role="form">
                   <div class="form-group">
                     <label class="sr-only" for="exampleInputEmail2">Imię i nazwisko</label>
                     <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Imię i nazwisko">
                   </div>
-                  <div class="form-group">
-                    <label class="sr-only" for="exampleInputPassword2">Tytuł</label>
-                    <input type="text" class="form-control" id="exampleInputPassword2" placeholder="Tytuł">
-                  </div>
-                  <div class="form-group">
-                    <label for="inputEmail3" class="control-label sr-only">Jednostka organizacyjna:</label>
-                    <div>
-                      <select class="form-control input-sm">
-                        <option value="">obojętne</option>
-                        <option value="0">CH</option>
-                        <option value="1">EE</option>
-                        <option value="2">ICHIP</option>
-                        <option value="3">IE</option>
-                        <option value="4">IETiSIP</option>
-                        <option value="5">IF</option>
-                        <option value="6">IL</option>
-                        <option value="7">IME</option>
-                        <option value="8">INNE</option>
-                        <option value="9">ISEP</option>
-                        <option value="10">KWNiAE</option>
-                        <option value="11">MECHTR</option>
-                        <option value="12">MECHTR-AiR</option>
-                        <option value="13">MEiL</option>
-                        <option value="14">MiNI</option>
-                        <option value="15">OKNO</option>
-                        <option value="16">OKNO-EE</option>
-                        <option value="17">PW</option>
-                        <option value="18">SJO</option>
-                        <option value="19">SWFiS</option>
-                        <option value="20">WAiNS</option>
-                        <option value="21">WEiTI</option>
-                        <option value="22">WEiTI-II</option>
-                        <option value="23">WEiTI-IMIO</option>
-                        <option value="24">WEiTI-ISE</option>
-                        <option value="25">WIM</option>
-                        <option value="26">WIP</option>
-                        <option value="27">WIŚ</option>
-                        <option value="28">WZ</option>
-                      </select>
-                    </div>
-                  </div>
                   <button type="submit" class="btn btn-sm btn-success">Szukaj</button>
+                <a class="btn btn-info btn-sm" data-toggle="modal" data-target=".search-teachers">Szczegółowe wyszukiwanie</a>
                 </form>
               </div>
               <div class="text-center">
