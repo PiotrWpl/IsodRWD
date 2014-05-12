@@ -18,6 +18,10 @@ body {
   padding-top: 50px;
   background-color: #F3F3F3;
 }
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+  font-weight: bold;
+  font-weight: 500;
+}
 
 
 /* Helper classes */
@@ -302,9 +306,6 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header > a 
 }
 
 @media (max-width: 1000px) {
-  h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
-    font-weight: bold;
-  }
   .table-responsive {
     width: 100%;
     margin-bottom: 15px;
