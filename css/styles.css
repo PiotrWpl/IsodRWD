@@ -310,6 +310,13 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header a {
   dl.news-announcements.dl-horizontal dd {
     margin-bottom: 15px;
   }
+  .dl-horizontal.dl-horizontal-tight dt {
+    width: 80px;
+  }
+  .dl-horizontal.dl-horizontal-tight dd {
+    margin-left: 100px;
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 1000px) {

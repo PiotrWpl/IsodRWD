@@ -40,7 +40,7 @@ _Celem projektu jest modernizacja istniejącego interfejsu tak aby poprawnie wy�
 - ~~Propozycje tematów (*kolumna szczegółów do ulepszenia*)~~
 - -- *Czy potrzebna jest kolumna aktualizacja?*
 - -- *Czy mogą być kolory i tooltip zamiast kolumny statusu?*
-- ~~Obronione prace (*przerobić listę na kolumny w tabeli*)~~ NIE - (__taka postać jest czytelna i dobrze gospodaruje przestrzeń__)
+- ~~Obronione prace (*przerobić listę na kolumny w tabeli*)~~
 
 #### Uwagi (6 maja):
 - ~~Proszę aby lista ogłoszeń i komunikatów była w innej tonacji kolorystycznej i innym układzie graficznym. Przykład bardziej czytelnego układu: https://drive.google.com/file/d/0B2BOI1F_asEbUHJOYkM3OXVucVU/edit?usp=sharing~~
