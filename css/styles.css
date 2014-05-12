@@ -316,4 +316,7 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header a {
     border: 1px solid #DDD;
     -webkit-overflow-scrolling: touch;
   }
+  .table-responsive > .table.table-bordered{
+    margin-bottom: 0;
+  }
 }
