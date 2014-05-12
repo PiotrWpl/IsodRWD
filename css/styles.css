@@ -64,13 +64,9 @@ dl.dl-horizontal:last-child {
   top: -7px;
   right: -7px;
 }
-.search-info {
+.search-info.well {
   margin-top: 10px;
-}
-.search-info .dl-horizontal dt {
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 20px;
+  background: #fff;
 }
 .news-announcements.dl-horizontal dt {
   color: #7A7A7A;
@@ -291,12 +287,6 @@ body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header a {
 }
 
 @media (min-width: 768px) {
-  .search-info .dl-horizontal dt {
-    width: 260px;
-  }
-  .search-info .dl-horizontal dd {
-    margin-left: 280px;
-  }
   dl.dl-horizontal dd {
     margin-bottom: 0;
   }
