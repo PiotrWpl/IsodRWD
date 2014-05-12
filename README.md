@@ -6,6 +6,7 @@ _Celem projektu jest modernizacja istniejÄ…cego interfejsu tak aby poprawnie wyÅ
 - http://www.ee.pw.edu.pl/
 - https://isod.ee.pw.edu.pl/isod-portal/aktualnosci
 - http://getbootstrap.com/
+- http://wicket.apache.org/
 - https://github.com/filamentgroup/Overthrow
 - http://piotrwpl.github.io/IsodRWD/
 
