@@ -47,6 +47,21 @@ _Celem projektu jest modernizacja istniejącego interfejsu tak aby poprawnie wy�
 - ~~Prośba o zdecydowanie bardziej stonowane wyeksponowanie filtrów (to nie filtry sa tutaj najważniejsze, tylko nazwy sylabusów)~~
 - ~~Proszę aby na stronie startowej oprócz ogłoszeń i informacji w pasku z prawej strony znajdowały się widoczne od razu odnośniki do wszystkich stron, które są dostępne z menu górnego. Na stronie startowej powinien być od razu dostęp i przegląd struktury całego serwisu, bez konieczności rozwijania żadnego menu. To może być np. dodatkowy panel boczny z prawej strony. Proszę to rozważyć.~~
 
+#### Po spotkaniu (12 maja):
+- ~~Poprawka dla pogrubień czcionek nagłówkowych, gdy nieobsługiwany jest format liczbowy~~
+- ~~Paginacja zamiast stronicowania na liście ogłoszeń~~
+- Harmonogram sesji (cały ekran)
+- ~~Button do harmonogramu sesji~~
+- ~~Button do zapisów do dziekana~~
+- ~~Stopka dla całej strony~~
+- ~~Mniej rzucające się w oczy filtry~~
+- ~~Lepsze filtrowanie wykładowców~~
+- ~~Logo jako linki do strony uczelni i wydziału~~
+- ~~Aktualności w menu~~
+- ~~Poprawki w wyglądzie i układzie programu studiów~~
+- ~~Inny układ dla obronionych prac~~
+- ~~Spójny układ dla obronionych i propozycji prac~~
+
 #### Testy:
 - Android tablet
 - Android 2.x
