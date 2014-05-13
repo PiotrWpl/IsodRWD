@@ -6,7 +6,7 @@ _Celem projektu jest modernizacja istniejącego interfejsu tak aby poprawnie wy�
 - http://www.ee.pw.edu.pl/
 - https://isod.ee.pw.edu.pl/isod-portal/aktualnosci
 - http://getbootstrap.com/
-- http://wicket.apache.org/
+- http://wicket.apache.org/ wicket 1.4
 - https://github.com/filamentgroup/Overthrow
 - http://piotrwpl.github.io/IsodRWD/
 
@@ -62,6 +62,13 @@ _Celem projektu jest modernizacja istniejącego interfejsu tak aby poprawnie wy�
 - ~~Poprawki w wyglądzie i układzie programu studiów~~
 - ~~Inny układ dla obronionych prac~~
 - ~~Spójny układ dla obronionych i propozycji prac~~
+
+#### Po spotkaniu (13 maja):
+- bez domku w nawigacji górnej gdy zwinięta
+- jeszcze lżejsze filtry (bez pogrubień, nazwy filtrów szare)
+- nawigacja dolna do pobrania do lewej kolumny, linki na zewnątrz inna ikona
+- harmonogram nie może być czerwony
+- wypiąć externale z projektu (js, css, img)
 
 #### Testy:
 - Android tablet
