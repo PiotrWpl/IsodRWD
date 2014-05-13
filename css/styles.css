@@ -83,6 +83,9 @@ dl.dl-horizontal:last-child {
   margin-top: 10px;
   background: #fff;
 }
+.search-info .extra-information {
+  font-size: 85%;
+}
 .news-announcements.dl-horizontal dt {
   color: #7A7A7A;
   font-size: 12px;

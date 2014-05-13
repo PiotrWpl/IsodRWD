@@ -65,7 +65,7 @@ _Celem projektu jest modernizacja istniejącego interfejsu tak aby poprawnie wy�
 
 #### Po spotkaniu (13 maja):
 - ~~bez domku w nawigacji górnej gdy zwinięta~~
-- jeszcze lżejsze filtry (bez pogrubień, nazwy filtrów szare)
+- ~~jeszcze lżejsze filtry (bez pogrubień, nazwy filtrów szare)~~
 - ~~nawigacja dolna do pobrania do lewej kolumny, linki na zewnątrz inna ikona~~
 - ~~harmonogram nie może być czerwony~~
 - wypiąć externale z projektu (js, css, img)
